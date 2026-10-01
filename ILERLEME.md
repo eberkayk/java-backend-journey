@@ -29,7 +29,12 @@
 ```
 
 <!-- günlük kayıtlar buraya -->
-
+### Gün 1 — 01.10.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): java nasıl çalışır, değişkenler ve tipler, operatörler ve kullanıcıdan girdi almak
+- Ne takıldı: double/int dönüşümleri ve hesaplamaları, 
+- Commit: evet
+- Enerji/motivasyon (1-5):2
 ---
 
 ## Haftalık Kontrol
