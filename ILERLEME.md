@@ -35,6 +35,13 @@
 - Ne takıldı: double/int dönüşümleri ve hesaplamaları, 
 - Commit: evet
 - Enerji/motivasyon (1-5):2
+
+### Gün 2 - 02.10.2026 - 04.10.2026
+- Süre: 8 saat
+- Ne öğrendim (3 madde): if/else, switch, loops
+- Ne takıldı: döngü sınırları, kodun hangi bloğa ait olması gerektiği
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
