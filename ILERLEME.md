@@ -42,6 +42,13 @@
 - Ne takıldı: döngü sınırları, kodun hangi bloğa ait olması gerektiği
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 3 — 05.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): metotlar, pass-by-value
+- Ne takıldı: pass-by-value, metoda giden nesneler
+- Commit: evet
+- Enerji/motivasyon (1-5): 4
 ---
 
 ## Haftalık Kontrol
