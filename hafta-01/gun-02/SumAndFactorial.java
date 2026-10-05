@@ -6,7 +6,7 @@ public class SumAndFactorial {
         int number = scanner.nextInt();
         if (number < 0) {
             System.out.println("Invalid number");
-            break;
+            return;
         }
         int sum = 0;
         for (int i = 1; i <= number; i++) {
