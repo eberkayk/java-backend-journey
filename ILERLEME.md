@@ -49,6 +49,13 @@
 - Ne takıldı: pass-by-value, metoda giden nesneler
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 4 — 06.10.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): arrays
+- Ne takıldı: -
+- Commit: evet
+- Enerji/motivasyon (1-5): 4
 ---
 
 ## Haftalık Kontrol
