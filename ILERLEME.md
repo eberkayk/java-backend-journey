@@ -56,13 +56,20 @@
 - Ne takıldı: -
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 5 — 07.10.2026
+- Süre: 7 saat
+- Ne öğrendim (3 madde): Strings
+- Ne takıldı: -
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
 
 | Hafta | Tarih | Hedef tamam mı? | Mini sınav | Not |
-|---|---|---|---|---|
-| 1 | 30 Eyl – 6 Eki | | | |
+|-------|-------|-----------------|------------|-----|
+| 1 | 30 Eyl – 6 Eki |Tamam       |    58      |  Algoritmayı sıfırdan kurmada zayıfım |
 | 2 | 7 – 13 Eki | | | |
 | 3 | 14 – 20 Eki | | | |
 | 4 | 21 – 27 Eki | | | |
