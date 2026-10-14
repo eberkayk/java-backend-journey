@@ -64,12 +64,19 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün 6 — 07.10.2026 - 13.10.2026
+### Gün 6 — 08.10.2026 - 13.10.2026
 - Süre: 6 saat
 - Ne öğrendim (3 madde): classes, objects and constructors
 - Ne takıldı: -
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 7 — 14.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): encapsulation, static and getter/setter
+- Ne takıldı: if(metot())'un metodu çalıştırdığını ve while(true) kalıbını bilmiyordum.
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
