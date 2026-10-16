@@ -77,6 +77,16 @@
 - Ne takıldı: if(metot())'un metodu çalıştırdığını ve while(true) kalıbını bilmiyordum.
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 8 — 15.10.2026 - 16.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): inheritance
+- Ne takıldı:  - transfer neden CheckingAccount'ın withdraw'ını çağırdı (dynamic dispatch)
+    - A1'de içteki while döngülerinin sınırı yoktu
+    - A2'de i bir turda iki kez arttı
+    - Isınmada private'ın class seviyesinde olması ve local değişkenin varsayılan değeri
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
