@@ -87,6 +87,13 @@
     - Isınmada private'ın class seviyesinde olması ve local değişkenin varsayılan değeri
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 9 — tarih 16.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): referans tipi/nesne tipi, downcast + ClassCastException, String.format
+- Ne takıldı: -
+- Commit: evet
+- Enerji/motivasyon (1-5): 4
 ---
 
 ## Haftalık Kontrol
