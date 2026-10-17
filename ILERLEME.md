@@ -101,6 +101,13 @@
 - Ne takıldı: algoritma kurarken boolean flag aklıma gelmedi
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 11 — 17.10.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): -
+- Ne takıldı: char
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
@@ -108,6 +115,6 @@
 | Hafta | Tarih | Hedef tamam mı? | Mini sınav | Not |
 |-------|-------|-----------------|------------|-----|
 | 1 | 30 Eyl – 6 Eki |Tamam       |    58      |  Algoritmayı sıfırdan kurmada zayıfım |
-| 2 | 7 – 13 Eki | | | |
+| 2 | 7 – 13 Eki | Tamam|78.5 |daha iyiye gidiyorum genel olarak |
 | 3 | 14 – 20 Eki | | | |
 | 4 | 21 – 27 Eki | | | |
