@@ -94,6 +94,13 @@
 - Ne takıldı: -
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 10 — 17.10.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): abstract class, interface
+- Ne takıldı: algoritma kurarken boolean flag aklıma gelmedi
+- Commit: evet
+- Enerji/motivasyon (1-5): 4
 ---
 
 ## Haftalık Kontrol
