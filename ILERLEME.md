@@ -108,6 +108,13 @@
 - Ne takıldı: char
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 12 — 19.10.2026
+- Süre: 8 saat
+- Ne öğrendim (3 madde): equals/hashCode
+- Ne takıldı: HashSet, returnBook mantığı
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
