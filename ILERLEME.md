@@ -115,6 +115,13 @@
 - Ne takıldı: HashSet, returnBook mantığı
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 13 — 20.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): exceptions
+- Ne takıldı: exceptions
+- Commit: evet
+- Enerji/motivasyon (1-5): 2
 ---
 
 ## Haftalık Kontrol
