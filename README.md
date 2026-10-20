@@ -6,12 +6,12 @@
 
 ## Dosyalar
 
-| Dosya | Ne işe yarar |
-|---|---|
-| `PLAN.md` | 16 haftalık yol haritası, fazlar, projeler |
-| `ILERLEME.md` | Günlük log + haftalık kontrol listesi (her gün sonunda doldurulur) |
-| `CV-NOTLARI.md` | Mevcut CV'nin dürüst analizi ve yeniden yazım planı |
-| `hafta-XX/gun-XX/` | O günün ders notu (`DERS.md`) ve senin yazdığın kodlar |
+| Dosya              | Ne işe yarar                                                       |
+| ------------------ | ------------------------------------------------------------------ |
+| `PLAN.md`          | 16 haftalık yol haritası, fazlar, projeler                         |
+| `ILERLEME.md`      | Günlük log + haftalık kontrol listesi (her gün sonunda doldurulur) |
+| `CV-NOTLARI.md`    | Mevcut CV'nin dürüst analizi ve yeniden yazım planı                |
+| `hafta-XX/gun-XX/` | O günün ders notu (`DERS.md`) ve senin yazdığın kodlar             |
 
 ## Çalışma Kuralları (anlaşmamız)
 

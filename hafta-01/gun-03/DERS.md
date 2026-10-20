@@ -52,14 +52,14 @@ public static int square(int x) {
 }
 ```
 
-| Parça | Anlamı |
-|---|---|
-| `public` | erişim belirleyici (Hafta 2'de detay) |
-| `static` | nesne oluşturmadan çağrılır; `main` static olduğu için şimdilik bütün metotlar static (Hafta 2'de detay) |
-| `int` | **dönüş tipi**: metot ne geri veriyor? Hiçbir şey vermiyorsa `void` |
-| `square` | metot adı: **fiil** ile başlar, camelCase (`calculateTotal`, `isPrime`, `printMenu`) |
-| `(int x)` | **parametre listesi**: metot ne alıyor? |
-| `return x * x;` | sonucu çağırana geri ver |
+| Parça           | Anlamı                                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------------------------- |
+| `public`        | erişim belirleyici (Hafta 2'de detay)                                                                    |
+| `static`        | nesne oluşturmadan çağrılır; `main` static olduğu için şimdilik bütün metotlar static (Hafta 2'de detay) |
+| `int`           | **dönüş tipi**: metot ne geri veriyor? Hiçbir şey vermiyorsa `void`                                      |
+| `square`        | metot adı: **fiil** ile başlar, camelCase (`calculateTotal`, `isPrime`, `printMenu`)                     |
+| `(int x)`       | **parametre listesi**: metot ne alıyor?                                                                  |
+| `return x * x;` | sonucu çağırana geri ver                                                                                 |
 
 Çağırma:
 ```java

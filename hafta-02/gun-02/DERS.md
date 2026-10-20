@@ -37,12 +37,12 @@ account.balance = -100000;      // ...ama kapıyı kullanmadan duvardan girdin
 
 ## 2. Erişim belirleyiciler (access modifiers) ⭐⭐ (15 dk)
 
-| Belirleyici | Kim erişebilir? |
-|---|---|
-| `private` | **Sadece aynı class'ın içi** |
-| *(hiçbir şey yazmamak)* — "package-private" | Aynı **package** içindeki class'lar |
-| `protected` | Package + alt class'lar (Gün 3 inheritance'ta) |
-| `public` | Herkes |
+| Belirleyici                                 | Kim erişebilir?                                |
+| ------------------------------------------- | ---------------------------------------------- |
+| `private`                                   | **Sadece aynı class'ın içi**                   |
+| *(hiçbir şey yazmamak)* — "package-private" | Aynı **package** içindeki class'lar            |
+| `protected`                                 | Package + alt class'lar (Gün 3 inheritance'ta) |
+| `public`                                    | Herkes                                         |
 
 Dün hiçbir şey yazmadın → field'lar package-private'tı → `BankDemo` aynı package'ta (`w2d1`) olduğu için direkt erişebildi.
 
@@ -170,13 +170,13 @@ public static int getCount() {
 ```
 Çağrı: `Student.getCount()` — nesne gerekmez.
 
-| | instance (static değil) | static |
-|---|---|---|
-| Kime ait? | Nesneye | Class'a |
-| Çağrı | `s1.getName()` | `Student.getCount()` |
-| `this` var mı? | Var | **Yok** |
-| Instance field'a erişir mi? | Evet | **Hayır** (doğrudan) |
-| Static field'a erişir mi? | Evet | Evet |
+|                             | instance (static değil) | static               |
+| --------------------------- | ----------------------- | -------------------- |
+| Kime ait?                   | Nesneye                 | Class'a              |
+| Çağrı                       | `s1.getName()`          | `Student.getCount()` |
+| `this` var mı?              | Var                     | **Yok**              |
+| Instance field'a erişir mi? | Evet                    | **Hayır** (doğrudan) |
+| Static field'a erişir mi?   | Evet                    | Evet                 |
 
 **Neden `main` static?** Program başlarken hiç nesne yok. JVM'in `main`'i çağırabilmesi için nesneye ihtiyaç duymaması gerekir.
 **Neden Hafta 1'de her metodun `static` idi?** Çünkü `main` (static) onları nesnesiz çağırıyordu. Static bir metot, aynı class'taki static olmayan bir metodu nesne olmadan çağıramaz — yarın bunu hatada göreceksin.

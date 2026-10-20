@@ -10,16 +10,16 @@
 
 Backend developer'ın gününün yarısı terminalde geçer: sunucular, Docker, Git, loglar. Windows'ta **Git Bash** kullan (Linux komutlarıyla aynı).
 
-| Komut | Ne yapar |
-|---|---|
-| `pwd` | Şu an hangi klasördeyim? |
-| `ls` / `ls -la` | Klasörde ne var? (`-la`: gizli dosyalar ve detaylar dahil) |
-| `cd klasor` / `cd ..` / `cd ~` | Klasöre gir / bir üste çık / ana dizine git |
-| `mkdir isim` | Klasör oluştur |
-| `touch dosya.txt` | Boş dosya oluştur |
-| `cat dosya.txt` | Dosya içeriğini göster |
-| `rm dosya` / `rm -r klasor` | Sil (geri dönüşüm kutusu yok, dikkat!) |
-| `clear` | Ekranı temizle |
+| Komut                          | Ne yapar                                                   |
+| ------------------------------ | ---------------------------------------------------------- |
+| `pwd`                          | Şu an hangi klasördeyim?                                   |
+| `ls` / `ls -la`                | Klasörde ne var? (`-la`: gizli dosyalar ve detaylar dahil) |
+| `cd klasor` / `cd ..` / `cd ~` | Klasöre gir / bir üste çık / ana dizine git                |
+| `mkdir isim`                   | Klasör oluştur                                             |
+| `touch dosya.txt`              | Boş dosya oluştur                                          |
+| `cat dosya.txt`                | Dosya içeriğini göster                                     |
+| `rm dosya` / `rm -r klasor`    | Sil (geri dönüşüm kutusu yok, dikkat!)                     |
+| `clear`                        | Ekranı temizle                                             |
 
 **Tab** tuşu otomatik tamamlar, **↑** tuşu önceki komutu getirir. Bu ikisini refleks hâline getir.
 
@@ -64,16 +64,16 @@ Java **statically typed** bir dildir. Her değişkenin tipi derleme zamanında b
 
 ### 8 Primitive Tip
 
-| Tip | Boyut | Aralık / Örnek | Ne zaman kullanılır |
-|---|---|---|---|
-| `byte` | 8 bit | -128 … 127 | Ham veri, dosya |
-| `short` | 16 bit | -32.768 … 32.767 | Nadiren |
-| `int` | 32 bit | ~ ±2.1 milyar | **Varsayılan tam sayı** |
-| `long` | 64 bit | çok büyük, `123L` | ID'ler, zaman damgası |
-| `float` | 32 bit | `3.14f` | Nadiren |
-| `double` | 64 bit | `3.14` | **Varsayılan ondalık** |
-| `char` | 16 bit | `'A'` (tek tırnak!) | Tek karakter (aslında bir sayı: Unicode) |
-| `boolean` | — | `true` / `false` | Koşullar |
+| Tip       | Boyut  | Aralık / Örnek      | Ne zaman kullanılır                      |
+| --------- | ------ | ------------------- | ---------------------------------------- |
+| `byte`    | 8 bit  | -128 … 127          | Ham veri, dosya                          |
+| `short`   | 16 bit | -32.768 … 32.767    | Nadiren                                  |
+| `int`     | 32 bit | ~ ±2.1 milyar       | **Varsayılan tam sayı**                  |
+| `long`    | 64 bit | çok büyük, `123L`   | ID'ler, zaman damgası                    |
+| `float`   | 32 bit | `3.14f`             | Nadiren                                  |
+| `double`  | 64 bit | `3.14`              | **Varsayılan ondalık**                   |
+| `char`    | 16 bit | `'A'` (tek tırnak!) | Tek karakter (aslında bir sayı: Unicode) |
+| `boolean` | —      | `true` / `false`    | Koşullar                                 |
 
 > ⚠️ Para hesabında `double` kullanılmaz (`0.1 + 0.2 != 0.3`). Bankalar `BigDecimal` kullanır. Mülakatta sorulur.
 
@@ -106,13 +106,13 @@ int d = (int) c;       // narrowing (daraltma): elle yapılır, ondalık KESİL�
 
 ## 4. Operatörler (25 dk)
 
-| Tür | Operatörler |
-|---|---|
-| Aritmetik | `+ - * / %` (`%` = mod, kalan) |
-| Atama | `= += -= *= /= %=` |
-| Artırma | `i++` (önce kullan, sonra artır) · `++i` (önce artır, sonra kullan) |
-| Karşılaştırma | `== != > < >= <=` |
-| Mantıksal | `&&` (ve) · `\|\|` (veya) · `!` (değil) |
+| Tür           | Operatörler                                                         |
+| ------------- | ------------------------------------------------------------------- |
+| Aritmetik     | `+ - * / %` (`%` = mod, kalan)                                      |
+| Atama         | `= += -= *= /= %=`                                                  |
+| Artırma       | `i++` (önce kullan, sonra artır) · `++i` (önce artır, sonra kullan) |
+| Karşılaştırma | `== != > < >= <=`                                                   |
+| Mantıksal     | `&&` (ve) · `\|\|` (veya) · `!` (değil)                             |
 
 **Tuzaklar:**
 - `int / int` → sonuç **int** olur, ondalık kısım atılır.

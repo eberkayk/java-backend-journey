@@ -94,25 +94,25 @@ String s = "Hello, World";
 //          0123456789...
 ```
 
-| Metot | Örnek | Sonuç | Not |
-|---|---|---|---|
-| `length()` | `s.length()` | `12` | **Parantezli!** (dizide `length` parantezsizdi) |
-| `charAt(i)` | `s.charAt(0)` | `'H'` | `char` döner. Sınır dışı → `StringIndexOutOfBoundsException` |
-| `indexOf(x)` | `s.indexOf('o')` | `4` | İlk geçtiği yer, yoksa `-1` (senin E3'teki `indexOf` gibi!) |
-| `lastIndexOf(x)` | `s.lastIndexOf('o')` | `8` | |
-| `contains(x)` | `s.contains("World")` | `true` | |
-| `substring(b, e)` | `s.substring(0, 5)` | `"Hello"` | **b dahil, e hariç** → uzunluk = e - b |
-| `substring(b)` | `s.substring(7)` | `"World"` | b'den sona kadar |
-| `toUpperCase()` / `toLowerCase()` | | `"HELLO, WORLD"` | Yeni String döner |
-| `trim()` / `strip()` | `"  hi  ".strip()` | `"hi"` | Baş/son boşluk |
-| `isEmpty()` / `isBlank()` | `"  ".isEmpty()` / `"  ".isBlank()` | `false` / `true` | blank = sadece boşluk da boş sayılır |
-| `startsWith` / `endsWith` | `s.endsWith("ld")` | `true` | |
-| `replace(a, b)` | `s.replace('l', 'L')` | `"HeLLo, WorLd"` | Hepsini değiştirir |
-| `split(regex)` | `"a,b,c".split(",")` | `{"a","b","c"}` | `String[]` döner (Gün 4!) |
-| `toCharArray()` | `"abc".toCharArray()` | `{'a','b','c'}` | `char[]` → diziye çevir, değiştir |
-| `String.valueOf(x)` | `String.valueOf(42)` | `"42"` | Sayı → String |
-| `Integer.parseInt(s)` | `Integer.parseInt("42")` | `42` | String → sayı. `"4a"` → `NumberFormatException` |
-| `compareTo(o)` | `"apple".compareTo("banana")` | negatif | Alfabetik sıra: <0 önce, 0 eşit, >0 sonra |
+| Metot                             | Örnek                               | Sonuç            | Not                                                          |
+| --------------------------------- | ----------------------------------- | ---------------- | ------------------------------------------------------------ |
+| `length()`                        | `s.length()`                        | `12`             | **Parantezli!** (dizide `length` parantezsizdi)              |
+| `charAt(i)`                       | `s.charAt(0)`                       | `'H'`            | `char` döner. Sınır dışı → `StringIndexOutOfBoundsException` |
+| `indexOf(x)`                      | `s.indexOf('o')`                    | `4`              | İlk geçtiği yer, yoksa `-1` (senin E3'teki `indexOf` gibi!)  |
+| `lastIndexOf(x)`                  | `s.lastIndexOf('o')`                | `8`              |                                                              |
+| `contains(x)`                     | `s.contains("World")`               | `true`           |                                                              |
+| `substring(b, e)`                 | `s.substring(0, 5)`                 | `"Hello"`        | **b dahil, e hariç** → uzunluk = e - b                       |
+| `substring(b)`                    | `s.substring(7)`                    | `"World"`        | b'den sona kadar                                             |
+| `toUpperCase()` / `toLowerCase()` |                                     | `"HELLO, WORLD"` | Yeni String döner                                            |
+| `trim()` / `strip()`              | `"  hi  ".strip()`                  | `"hi"`           | Baş/son boşluk                                               |
+| `isEmpty()` / `isBlank()`         | `"  ".isEmpty()` / `"  ".isBlank()` | `false` / `true` | blank = sadece boşluk da boş sayılır                         |
+| `startsWith` / `endsWith`         | `s.endsWith("ld")`                  | `true`           |                                                              |
+| `replace(a, b)`                   | `s.replace('l', 'L')`               | `"HeLLo, WorLd"` | Hepsini değiştirir                                           |
+| `split(regex)`                    | `"a,b,c".split(",")`                | `{"a","b","c"}`  | `String[]` döner (Gün 4!)                                    |
+| `toCharArray()`                   | `"abc".toCharArray()`               | `{'a','b','c'}`  | `char[]` → diziye çevir, değiştir                            |
+| `String.valueOf(x)`               | `String.valueOf(42)`                | `"42"`           | Sayı → String                                                |
+| `Integer.parseInt(s)`             | `Integer.parseInt("42")`            | `42`             | String → sayı. `"4a"` → `NumberFormatException`              |
+| `compareTo(o)`                    | `"apple".compareTo("banana")`       | negatif          | Alfabetik sıra: <0 önce, 0 eşit, >0 sonra                    |
 
 **`substring` kuralı** (en çok karıştırılan): "başlangıç dahil, bitiş hariç". `s.substring(i, i + 1)` → i'deki tek karakter (String olarak).
 
@@ -138,14 +138,14 @@ c == 'a'                       // true ← char primitive, == DOĞRU kullanım
 ```
 Bilmen gereken sıralar: `'0'..'9'` ardışık, `'A'..'Z'` ardışık (65–90), `'a'..'z'` ardışık (97–122). Büyük-küçük farkı 32 — ezberleme, `Character` metotlarını kullan:
 
-| Metot | Ne yapar |
-|---|---|
-| `Character.isDigit(c)` | rakam mı |
-| `Character.isLetter(c)` | harf mi |
-| `Character.isLetterOrDigit(c)` | harf veya rakam mı |
-| `Character.isWhitespace(c)` | boşluk mu |
-| `Character.isUpperCase(c)` / `isLowerCase(c)` | |
-| `Character.toUpperCase(c)` / `toLowerCase(c)` | `char` döner |
+| Metot                                         | Ne yapar           |
+| --------------------------------------------- | ------------------ |
+| `Character.isDigit(c)`                        | rakam mı           |
+| `Character.isLetter(c)`                       | harf mi            |
+| `Character.isLetterOrDigit(c)`                | harf veya rakam mı |
+| `Character.isWhitespace(c)`                   | boşluk mu          |
+| `Character.isUpperCase(c)` / `isLowerCase(c)` |                    |
+| `Character.toUpperCase(c)` / `toLowerCase(c)` | `char` döner       |
 
 **Dikkat:** `'a'` (char, tek tırnak) ≠ `"a"` (String, çift tırnak). `"a" == 'a'` derlenmez. `"abc".charAt(0) == "a"` derlenmez.
 
@@ -183,15 +183,15 @@ for (int i = 0; i < 10000; i++) {
 String result = sb.toString(); // en sonda bir kez String'e çevir
 ```
 
-| StringBuilder metodu | Ne yapar |
-|---|---|
-| `append(x)` | sona ekle (her tip alır) |
-| `insert(i, x)` | i. konuma ekle |
-| `reverse()` | **yerinde** ters çevir |
-| `deleteCharAt(i)` | i. karakteri sil |
-| `setCharAt(i, c)` | i. karakteri değiştir |
-| `length()`, `charAt(i)` | String'deki gibi |
-| `toString()` | String'e çevir |
+| StringBuilder metodu    | Ne yapar                 |
+| ----------------------- | ------------------------ |
+| `append(x)`             | sona ekle (her tip alır) |
+| `insert(i, x)`          | i. konuma ekle           |
+| `reverse()`             | **yerinde** ters çevir   |
+| `deleteCharAt(i)`       | i. karakteri sil         |
+| `setCharAt(i, c)`       | i. karakteri değiştir    |
+| `length()`, `charAt(i)` | String'deki gibi         |
+| `toString()`            | String'e çevir           |
 
 **Ne zaman hangisi?**
 - Tek satırda birkaç parça birleştiriyorsan → `+` (derleyici zaten optimize eder).

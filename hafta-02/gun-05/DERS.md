@@ -128,16 +128,16 @@ Spring'de neredeyse her şey interface üzerinden konuşur: `UserRepository` bir
 
 ## 4. Abstract class mı, interface mi? ⭐⭐⭐ (15 dk) — mülakat sorusu
 
-| | Abstract class | Interface |
-|---|---|---|
-| İlişki | **IS-A** (bir türdür) — `Circle` bir `Shape`'tir | **CAN-DO** (yapabilir) — `Invoice` ödenebilir |
-| Kaç tane? | `extends` → **bir** tane | `implements` → **birden fazla** |
-| Field (durum) | Var (`private`, normal field) | Yok — sadece `public static final` constant |
-| Constructor | Var (alt class `super(...)` ile çağırır) | Yok |
-| Gövdeli metot | Var | Sadece `default` / `static` (Java 8+) |
-| Metot erişimi | İstediğin (`protected` dahil) | Hepsi `public` |
-| `new` ile | ❌ | ❌ |
-| Referans tipi olarak | ✅ | ✅ |
+|                      | Abstract class                                   | Interface                                     |
+| -------------------- | ------------------------------------------------ | --------------------------------------------- |
+| İlişki               | **IS-A** (bir türdür) — `Circle` bir `Shape`'tir | **CAN-DO** (yapabilir) — `Invoice` ödenebilir |
+| Kaç tane?            | `extends` → **bir** tane                         | `implements` → **birden fazla**               |
+| Field (durum)        | Var (`private`, normal field)                    | Yok — sadece `public static final` constant   |
+| Constructor          | Var (alt class `super(...)` ile çağırır)         | Yok                                           |
+| Gövdeli metot        | Var                                              | Sadece `default` / `static` (Java 8+)         |
+| Metot erişimi        | İstediğin (`protected` dahil)                    | Hepsi `public`                                |
+| `new` ile            | ❌                                               | ❌                                            |
+| Referans tipi olarak | ✅                                               | ✅                                            |
 
 **Karar kuralı (kısa):**
 - Alt class'lar **ortak field ve kod** paylaşıyor, aralarında gerçek IS-A var → **abstract class**.

@@ -49,13 +49,13 @@ public class SavingsAccount extends BankAccount {
 
 ## 2. Neler devralınır, neler devralınmaz? ⭐⭐ (15 dk)
 
-| | Alt class'ta var mı? | Alt class'ın kodu doğrudan kullanabilir mi? |
-|---|---|---|
-| `public` metot/field | Var | Evet |
-| `protected` metot/field | Var | Evet |
-| package-private | Var | Sadece aynı package'taysa |
-| `private` field | **Var** (nesnenin içinde duruyor) | **Hayır** — sadece üst class'ın metotlarıyla |
-| Constructor | **Devralınmaz** | `super(...)` ile çağrılır |
+|                         | Alt class'ta var mı?              | Alt class'ın kodu doğrudan kullanabilir mi?  |
+| ----------------------- | --------------------------------- | -------------------------------------------- |
+| `public` metot/field    | Var                               | Evet                                         |
+| `protected` metot/field | Var                               | Evet                                         |
+| package-private         | Var                               | Sadece aynı package'taysa                    |
+| `private` field         | **Var** (nesnenin içinde duruyor) | **Hayır** — sadece üst class'ın metotlarıyla |
+| Constructor             | **Devralınmaz**                   | `super(...)` ile çağrılır                    |
 
 En önemli satır `private`: `SavingsAccount` nesnesinin içinde bir `balance` **var**, ama `SavingsAccount`'ın kodu `balance += ...` **yazamaz**:
 ```java
@@ -127,12 +127,12 @@ public boolean withdraw(int amount) { ... }         // parametre tipi farklı �
 İkisi de **sessizce derlenir** ve senin metodun hiç çağrılmaz. `@Override` yazarsan derleyici "üst class'ta böyle bir metot yok" diye **hata verir**. → Her override'a `@Override` yaz.
 
 ### Overloading vs Overriding (klasik mülakat sorusu)
-| | Overloading (Gün 3) | Overriding (bugün) |
-|---|---|---|
-| Nerede? | Aynı class (veya alt class) | Alt class |
-| İsim | Aynı | Aynı |
-| Parametreler | **Farklı** | **Aynı** |
-| Ne zaman seçilir? | Derleme anında | Çalışma anında (yarın: polymorphism) |
+|                   | Overloading (Gün 3)         | Overriding (bugün)                   |
+| ----------------- | --------------------------- | ------------------------------------ |
+| Nerede?           | Aynı class (veya alt class) | Alt class                            |
+| İsim              | Aynı                        | Aynı                                 |
+| Parametreler      | **Farklı**                  | **Aynı**                             |
+| Ne zaman seçilir? | Derleme anında              | Çalışma anında (yarın: polymorphism) |
 
 ### `toString()` override
 ```java

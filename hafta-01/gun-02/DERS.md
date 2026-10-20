@@ -157,13 +157,13 @@ for (int i = 1; i <= 4; i++) {
 }
 ```
 
-| tur | i | koşul `i <= 4` | sum |
-|---|---|---|---|
-| başlangıç | 1 | true | 0 → 1 |
-| 2 | 2 | true | 3 |
-| 3 | 3 | true | 6 |
-| 4 | 4 | true | 10 |
-| — | 5 | **false** → çık | 10 |
+| tur       | i   | koşul `i <= 4`  | sum   |
+| --------- | --- | --------------- | ----- |
+| başlangıç | 1   | true            | 0 → 1 |
+| 2         | 2   | true            | 3     |
+| 3         | 3   | true            | 6     |
+| 4         | 4   | true            | 10    |
+| —         | 5   | **false** → çık | 10    |
 
 Mülakatta "bu kodun çıktısı ne?" sorusunu böyle çözersin. **Bugünkü her egzersizde, kodu yazmadan önce küçük bir örnekle trace table yap.**
 

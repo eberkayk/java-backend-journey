@@ -5,19 +5,19 @@ Son satır: döngü koşulunun kontrol edildiği ve **sağlanmadığı** an (swa
 
 ## Tablo 1 — `{1, 2, 3, 4, 5}`  (length = 5)
 
-| Tur | left | right | left < right ? | Dizi (swap sonrası) |
-|---|---|---|---|---|
-| 1 | 0 | 4 | t |5,2,3,4,1|
-| 2 | 1 | 3 | t |5,4,3,2,1|
-| 3 | 2 | 2 | f | (swap yok, döngü biter) |
+| Tur | left | right | left < right ? | Dizi (swap sonrası)     |
+| --- | ---- | ----- | -------------- | ----------------------- |
+| 1   | 0    | 4     | t              | 5,2,3,4,1               |
+| 2   | 1    | 3     | t              | 5,4,3,2,1               |
+| 3   | 2    | 2     | f              | (swap yok, döngü biter) |
 
 ## Tablo 2 — `{1, 2, 3, 4}`  (length = 4)
 
-| Tur | left | right | left < right ? | Dizi (swap sonrası) |
-|---|---|---|---|---|
-| 1 | 0 | 3 | t |4,2,3,1|
-| 2 | 1 | 2 | t |4,3,2,1|
-| 3 | 2 | 1 | f | (swap yok, döngü biter) |
+| Tur | left | right | left < right ? | Dizi (swap sonrası)     |
+| --- | ---- | ----- | -------------- | ----------------------- |
+| 1   | 0    | 3     | t              | 4,2,3,1                 |
+| 2   | 1    | 2     | t              | 4,3,2,1                 |
+| 3   | 2    | 1     | f              | (swap yok, döngü biter) |
 
 ## Sorular
 

@@ -12,11 +12,11 @@ indeks:  0   1   2   3   4   5   6
 ```
 
 | Tur | left | right | left < right ? | charAt(left) | charAt(right) | Sonuç |
-|---  |---   |---    |---             |---           |---            |---    |
-| 1   |  0   |  6    |    true        |    r         |      r        | devam |
-| 2   | 1    |   5   | true           | a            | a             |  devam|
-| 3   | 2    |  4    |  true          |    c         |       c       | devam |
-| 4   | 3    |   3   |  false         |  e           |     e         |  true |
+| --- | ---- | ----- | -------------- | ------------ | ------------- | ----- |
+| 1   | 0    | 6     | true           | r            | r             | devam |
+| 2   | 1    | 5     | true           | a            | a             | devam |
+| 3   | 2    | 4     | true           | c            | c             | devam |
+| 4   | 3    | 3     | false          | e            | e             | true  |
 
 ## Tablo 2 — `"abca"`  (length = 4)
 
@@ -26,9 +26,9 @@ indeks:  0   1   2   3
 ```
 
 | Tur | left | right | left < right ? | charAt(left) | charAt(right) | Sonuç |
-|---|---|---|---|---|---|---|
-| 1 | 0|3 |true | a| a| devam|
-| 2 | 1| 2| true| b| c| false|
+| --- | ---- | ----- | -------------- | ------------ | ------------- | ----- |
+| 1   | 0    | 3     | true           | a            | a             | devam |
+| 2   | 1    | 2     | true           | b            | c             | false |
 
 ## Sorular
 

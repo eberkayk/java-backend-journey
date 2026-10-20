@@ -71,12 +71,12 @@ public class CarDemo {
 
 **Field'ların varsayılan değeri vardır** (mülakat sorusu):
 
-| Tip | Varsayılan |
-|---|---|
-| `int`, `long`, `double` ... | `0` / `0.0` |
-| `boolean` | `false` |
-| `char` | `'\u0000'` |
-| **Her reference tip** (`String`, dizi, `Car`...) | **`null`** |
+| Tip                                              | Varsayılan  |
+| ------------------------------------------------ | ----------- |
+| `int`, `long`, `double` ...                      | `0` / `0.0` |
+| `boolean`                                        | `false`     |
+| `char`                                           | `'\u0000'`  |
+| **Her reference tip** (`String`, dizi, `Car`...) | **`null`**  |
 
 ⚠️ **Local değişkenlerin (metot içindekiler) varsayılanı YOKTUR** — atamadan kullanırsan derlenmez ("might not have been initialized"). Field'larda Java senin yerine doldurur. Gün 4'te `new int[5]`'in içinin 0 olması da aynı kuraldı.
 

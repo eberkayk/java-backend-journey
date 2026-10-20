@@ -52,12 +52,12 @@ System.out.println(primes.length);       // 5  (parantez YOK: length bir alan, m
 ```
 
 ### Varsayılan değerler (`new` ile oluşturunca)
-| Tip | Varsayılan |
-|---|---|
-| `int`, `long`, `double` | `0` / `0.0` |
-| `boolean` | `false` |
-| `char` | `'\u0000'` (boş karakter) |
-| `String` ve diğer reference tipler | `null` |
+| Tip                                | Varsayılan                |
+| ---------------------------------- | ------------------------- |
+| `int`, `long`, `double`            | `0` / `0.0`               |
+| `boolean`                          | `false`                   |
+| `char`                             | `'\u0000'` (boş karakter) |
+| `String` ve diğer reference tipler | `null`                    |
 
 ### Sınır dışı erişim
 ```java
@@ -168,13 +168,13 @@ public static int[] createRange(int n) {     // dönüş tipi int[]
 
 Kodlarını **sen** yazacaksın (egzersizlerde). Burada sadece fikirler:
 
-| Algoritma | Fikir | Dikkat |
-|---|---|---|
-| Toplam / ortalama | Akümülatör `sum`, döngüde ekle | Ortalama `double`: `int / int` tuzağı (Gün 1) |
-| Max / min | **İlk elemanı** başlangıç kabul et, kalanlarla karşılaştır | `max = 0` ile başlarsan tüm elemanlar negatifken yanlış |
-| Doğrusal arama | Baştan sona bak, bulunca indeksi **return** et | Bulunamazsa `-1` (sentinel, Gün 3'teki lcm kararın gibi) |
-| Sayma | Koşulu sağlayanlar için sayaç | — |
-| Yerinde ters çevirme | İki uç: `left = 0`, `right = length - 1`, yer değiştir, ortada buluş | Döngü ne zaman durmalı? Sonuna kadar gidersen ne olur? |
+| Algoritma            | Fikir                                                                | Dikkat                                                   |
+| -------------------- | -------------------------------------------------------------------- | -------------------------------------------------------- |
+| Toplam / ortalama    | Akümülatör `sum`, döngüde ekle                                       | Ortalama `double`: `int / int` tuzağı (Gün 1)            |
+| Max / min            | **İlk elemanı** başlangıç kabul et, kalanlarla karşılaştır           | `max = 0` ile başlarsan tüm elemanlar negatifken yanlış  |
+| Doğrusal arama       | Baştan sona bak, bulunca indeksi **return** et                       | Bulunamazsa `-1` (sentinel, Gün 3'teki lcm kararın gibi) |
+| Sayma                | Koşulu sağlayanlar için sayaç                                        | —                                                        |
+| Yerinde ters çevirme | İki uç: `left = 0`, `right = length - 1`, yer değiştir, ortada buluş | Döngü ne zaman durmalı? Sonuna kadar gidersen ne olur?   |
 
 **Boş dizi** (`new int[0]`, length 0) ayrı bir durumdur. Max'ı neyle başlatacaksın? Karar ver, yorumla yaz.
 

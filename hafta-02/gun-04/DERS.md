@@ -63,10 +63,10 @@ CheckingAccount c = new BankAccount("Ali");   // ❌ incompatible types — her 
 
 **Altın kural (mülakatın kalbi):**
 
-| Soru | Kim karar verir? | Neye bakar? |
-|---|---|---|
-| Bu metodu **çağırabilir miyim**? | **Derleyici** (derleme anı) | **Referansın** tipine |
-| Metodun **hangi versiyonu** çalışır? | **JVM** (çalışma anı) | **Nesnenin** tipine |
+| Soru                                 | Kim karar verir?            | Neye bakar?           |
+| ------------------------------------ | --------------------------- | --------------------- |
+| Bu metodu **çağırabilir miyim**?     | **Derleyici** (derleme anı) | **Referansın** tipine |
+| Metodun **hangi versiyonu** çalışır? | **JVM** (çalışma anı)       | **Nesnenin** tipine   |
 
 ```java
 BankAccount acc = new SavingsAccount("Ayşe", 0.05);
@@ -143,10 +143,10 @@ if (acc instanceof SavingsAccount s) {
 }
 ```
 
-| Cast yönü | Örnek | Yazmak gerekir mi? | Patlayabilir mi? |
-|---|---|---|---|
-| **Upcast** (alt → üst) | `BankAccount b = savings;` | Hayır, otomatik | Hayır |
-| **Downcast** (üst → alt) | `(SavingsAccount) b` | Evet, açıkça | Evet → `ClassCastException` |
+| Cast yönü                | Örnek                      | Yazmak gerekir mi? | Patlayabilir mi?            |
+| ------------------------ | -------------------------- | ------------------ | --------------------------- |
+| **Upcast** (alt → üst)   | `BankAccount b = savings;` | Hayır, otomatik    | Hayır                       |
+| **Downcast** (üst → alt) | `(SavingsAccount) b`       | Evet, açıkça       | Evet → `ClassCastException` |
 
 ⚠️ **Tasarım uyarısı:** Kodunda `if (x instanceof A) ... else if (x instanceof B) ... else if (x instanceof C)` zinciri görürsen, genelde **override etmen gereken bir metot** eksiktir. Her tür kendi davranışını kendi metodunda taşımalı; dışarıdan türünü sorup ona göre davranmak polymorphism'in tersidir. `instanceof` istisna olmalı, kural değil.
 

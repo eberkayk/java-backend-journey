@@ -121,9 +121,9 @@ Cevap:downcast error verir
 ## Bölüm C — C2 test tablosu (kodlamadan ÖNCE)
 {1, 4, 7}` + `{2, 4, 9, 10}` → `{1, 2, 4, 4, 7, 9, 10}
 
-| girdi a | girdi b | beklenen | neyi kontrol ediyor |
-|---|---|---|---|
-| 1,2,3| 2,3,4| 1,2,2,3,3,4| hepsi pozitif ve tekrar edenleri|
-|-6,-3,-2| -8,-7,-5| -8,-7,-6,-5,-3,-2| negatifleri |
-| 2| 4| 2,4| tek elemanlıları |
-| {}| 4| 4| boş diziyi|
+| girdi a  | girdi b  | beklenen          | neyi kontrol ediyor              |
+| -------- | -------- | ----------------- | -------------------------------- |
+| 1,2,3    | 2,3,4    | 1,2,2,3,3,4       | hepsi pozitif ve tekrar edenleri |
+| -6,-3,-2 | -8,-7,-5 | -8,-7,-6,-5,-3,-2 | negatifleri                      |
+| 2        | 4        | 2,4               | tek elemanlıları                 |
+| {}       | 4        | 4                 | boş diziyi                       |
