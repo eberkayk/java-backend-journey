@@ -122,6 +122,13 @@
 - Ne takıldı: exceptions
 - Commit: evet
 - Enerji/motivasyon (1-5): 2
+
+### Gün 14 — 22.10.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): ArrayList
+- Ne takıldı: Pascal üçgeni
+- Commit: evet
+- Enerji/motivasyon (1-5): 4
 ---
 
 ## Haftalık Kontrol
