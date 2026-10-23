@@ -129,6 +129,13 @@
 - Ne takıldı: Pascal üçgeni
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 15 — 23.10.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): HashMap, HashSet, TwoSum
+- Ne takıldı: index ile değer karıştırıldı
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
