@@ -136,6 +136,13 @@
 - Ne takıldı: index ile değer karıştırıldı
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 16 — 25.10.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): generics, sorting
+- Ne takıldı: compareTo'da başlık aynı çıkınca ISBN'e bakma kısmı ve getAllBooks(Comparator)
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
