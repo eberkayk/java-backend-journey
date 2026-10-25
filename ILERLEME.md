@@ -146,8 +146,8 @@
 
 ### Gün 17 — 25.10.2026
 - Süre: 2 saat
-- Ne öğrendim (3 madde): iterators
-- Ne takıldı: - 
+- Ne öğrendim (3 madde): for-each'in arkasındaki iterator, CME'nin sebebi, it.remove(), Iterable ile kendi class'ını for-each' açmak
+- Ne takıldı: döngü başına bir next() 
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
 ---
