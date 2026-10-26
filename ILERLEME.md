@@ -150,6 +150,13 @@
 - Ne takıldı: döngü başına bir next() 
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
+
+### Gün 18 — 26.10.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): Comparator, compare, Iterator
+- Ne takıldı: Comparator, compare
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
@@ -158,5 +165,5 @@
 | ----- | -------------- | --------------- | ---------- | ------------------------------------ |
 | 1     | 30 Eyl – 6 Eki | Tamam           | 58         | Algoritmayı sıfırdan kurmada zayıfım |
 | 2     | 7 – 13 Eki     | Tamam           | 78.5       | daha iyiye gidiyorum genel olarak    |
-| 3     | 14 – 20 Eki    |                 |            |                                      |
+| 3     | 14 – 20 Eki    | Tamam           | 64.5       | bu haftanın konuları tam oturmadı    |
 | 4     | 21 – 27 Eki    |                 |            |                                      |
