@@ -160,8 +160,8 @@
 
 ### Gün 19 — 27.10.2026
 - Süre: 6 saat
-- Ne öğrendim (3 madde): lambda
-- Ne takıldı:
+- Ne öğrendim (3 madde): lambda / functional interface, Predicate-Function-Consumer-Supplier, method reference
+- Ne takıldı: condition.test sadece true/false döndürür; kopyadan silince asıl liste değişmez
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 ---
