@@ -157,6 +157,13 @@
 - Ne takıldı: Comparator, compare
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 19 — 27.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): lambda
+- Ne takıldı:
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
