@@ -164,6 +164,13 @@
 - Ne takıldı: condition.test sadece true/false döndürür; kopyadan silince asıl liste değişmez
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 20 — 28.10.2026
+- Süre: 6 saat
+- Ne öğrendim (3 madde): stream zinciri (filter/map/sorted/limit → toList/count/anyMatch), mapToInt/mapToDouble ile toplam, groupingBy + counting/summingDouble ve TreeMap ile sıralı map
+- Ne takıldı: map() ile nesneyi bir alanına çevirince nesnenin kendisi kayboluyor (groupingBy ve top'ta); sayma dizisinde döngüyü değerler yerine index'e göre kurdum (0'a kadar indi, 500'den başlamadı)
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
