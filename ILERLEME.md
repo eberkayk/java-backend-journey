@@ -171,6 +171,13 @@
 - Ne takıldı: map() ile nesneyi bir alanına çevirince nesnenin kendisi kayboluyor (groupingBy ve top'ta); sayma dizisinde döngüyü değerler yerine index'e göre kurdum (0'a kadar indi, 500'den başlamadı)
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 21 — 29.10.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): Optional (findFirst/max döndürür; orElse, map, orElseThrow; boşsa null yerine boş kutu), alanlı enum + return switch ile next(), record (compact constructor ile doğrulama, equals/hashCode/toString hazır, getter adı = alan adı)
+- Ne takıldı: compact constructor'a () yazdım ve metodu constructor'ın içine koydum; Optional'da orElseThrow'u equals'tan sonra yazdım (önce kutuyu açmak lazım); toString'de Category.valueOf(description) kullandım; A1'de sum'a sayıyı değil sayacı ekledim
+- Commit: evet
+- Enerji/motivasyon (1-5): 2
 ---
 
 ## Haftalık Kontrol
