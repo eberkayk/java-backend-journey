@@ -178,6 +178,13 @@
 - Ne takıldı: compact constructor'a () yazdım ve metodu constructor'ın içine koydum; Optional'da orElseThrow'u equals'tan sonra yazdım (önce kutuyu açmak lazım); toString'de Category.valueOf(description) kullandım; A1'de sum'a sayıyı değil sayacı ekledim
 - Commit: evet
 - Enerji/motivasyon (1-5): 2
+
+### Gün 22 — 30.10.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde):  LocalDate (of/parse, plusDays yeni tarih döndürür, ChronoUnit.DAYS.between, YearMonth ile aylık gruplama), Files.write/readAllLines/APPEND ve checked IOException, CSV ile nesne ↔ satır (toCsv / static fromCsv, loadFrom)
+- Ne takıldı:  Optional'ı yazdırınca Optional[Bora] çıktığını yine unuttum; valueOf yanlış isimde IllegalArgumentException verir, NoSuchElement değil; DAYS.between'de başlangıç gününü de saydım (63 dedim, 62); Span'de min/max Optional döndürdüğü için orElseThrow gerekiyordu ve parantezi yanlış kapattım
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
