@@ -21,3 +21,9 @@
 4. **Her gün commit.** Gün sonunda kodunu GitHub'a push'la. Yeşil kareler hem disiplin hem CV.
 5. **Her oturum hesap sorma ile başlar:** "Dün ne yaptın, ne takıldı, kağıda ne yazdın?"
 6. Bir günü kaçırırsan plan kaymaz, telafi edilir. İki gün üst üste kaçırmak yok.
+
+## Projeler
+
+| Proje                                        | Hafta | Ne                                          |
+| -------------------------------------------- | ----- | ------------------------------------------- |
+| [Expense Tracker](projects/expense-tracker/) | 1–4   | Konsol gider takip (Maven, CSV, Stream API) |
