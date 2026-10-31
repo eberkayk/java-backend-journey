@@ -185,6 +185,13 @@
 - Ne takıldı:  Optional'ı yazdırınca Optional[Bora] çıktığını yine unuttum; valueOf yanlış isimde IllegalArgumentException verir, NoSuchElement değil; DAYS.between'de başlangıç gününü de saydım (63 dedim, 62); Span'de min/max Optional döndürdüğü için orElseThrow gerekiyordu ve parantezi yanlış kapattım
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 23 — 31.10.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): Maven (pom.xml/GAV, standart klasör yapısı src/main/java, clean package → target'ta jar, mainClass ile java -jar, mvnw wrapper); main(String[] args) ile komut satırı uygulaması (String switch, tırnaklı argüman, YearMonth atDay/atEndOfMonth); GitHub için Markdown README (kod blokları, liste maddeleri)
+- Ne takıldı: DERS'teki "FILE : Path" gösterimini olduğu gibi yazdım (önce tip, sonra isim); değişkeni if/else'in içinde tanımladım, switch göremedi; case'lere String için tırnak koymadım; add'de args indekslerini bir kaydırdım (Category.valueOf("Coffee")); switch içindeki return bütün metottan çıkıyor, switch'i değişkene atamak gerekti; substring'de dizinin length'ini kullandım; ısınmada Optional yazdırma (3. kez) ve valueOf → IAE yine karıştı
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
