@@ -1,7 +1,8 @@
-# 16 Haftalık Plan — Sıfırdan Junior Java Backend
+# 17 Haftalık Plan — Sıfırdan Junior Java Backend
 
 > Omurga: `roadmap.sh/java` + `roadmap.sh/spring-boot`. `roadmap.sh/backend`'den sadece junior için gerekenler alındı.
 > Tarihler hedeftir; hızlı gidersek öne çekeriz, zorlanırsak konu sağlam oturmadan ilerlemeyiz.
+> **Revizyon (1 Kasım 2026):** Hafta 1–4 sınavları 58 / 78.5 / 64.5 / 62. Hedef %80+ olmadan SQL'e geçmiyoruz → Hafta 5 **Tekrar + Kapı Sınavı** eklendi, sonraki haftalar 1 hafta kaydı (16 → 17 hafta, kapı sınavı geçilemezse 18).
 
 ## Başlangıç Seviyesi (29 Eylül 2026)
 
@@ -33,37 +34,57 @@
 | **3** | Exceptions, Collections (List/Set/Map, iç yapıları), Generics, Comparable/Comparator, Iterator                                            | Kütüphane sistemini Collections + exception ile yeniden yaz                                           |
 | **4** | Lambda, Stream API, Optional, record, enum, dosya I/O, `java.time`, temel concurrency kavramı. **Maven**                                  | **Proje 0:** Konsol "Gider Takip" uygulaması (dosyaya kaydeden, stream kullanan, Maven'lı, README'li) |
 
-## FAZ 2 — Veritabanı ve Web Temelleri (Hafta 5–6) · 28 Eki – 10 Kas
+## TEKRAR — Hafta 5 · 2 – 8 Kas (Gün 25–31)
+
+**Neden:** Hafta 3 (Collections) ve Hafta 4 (modern Java) %50–60 seviyesinde, algoritmayı sıfırdan kurmak zayıf. Spring bunların üstüne kurulu; oturmadan geçmek ileride iki kat zaman kaybettirir.
+
+**Günlük şablon (~5-6 saat, karışık):** Isınma 15 dk (sık kaçanlar, kodlu sorular) → Konu özeti 30 dk (yeni konu yok) → Çıktı tahmin seti 20 dk → Notsuz kod görevi 1.5–2 sa → Algoritma 1 sa (1–2 LeetCode: önce örnek girdiyle elle çöz, adımları chat'e yaz, sonra kodla) → Kapanış.
+
+| Gün | Tarih | Odak                                                                                                     | Algoritma              |
+| --- | ----- | -------------------------------------------------------------------------------------------------------- | ---------------------- |
+| 25  | 2 Kas | Exceptions (checked/unchecked, custom, throw/throws) + `List` (dönüş değerleri, `remove(int)` tuzağı)    | Dizi + iki pointer     |
+| 26  | 3 Kas | `Map` / `Set`: `hashCode`/`equals`, sayma kalıpları (`getOrDefault`, `merge`, `putIfAbsent`)             | HashMap ile sayma      |
+| 27  | 4 Kas | Generics + `Comparable` / `Comparator` zincirleri + `Iterator` / CME                                     | Sıralama tabanlı       |
+| 28  | 5 Kas | Lambda + functional interface'ler + Stream (`filter/map/sorted/collect/groupingBy`), döngü ↔ stream      | String                 |
+| 29  | 6 Kas | `Optional` (yazdırma!), `record`, `enum`, `java.time`, dosya I/O, exception isimleri                     | Karışık                |
+| 30  | 7 Kas | **Notsuz mini proje** sıfırdan (Maven; collections + exception + stream + record/enum + dosya), 3-4 saat | —                      |
+| 31  | 8 Kas | **Kapı sınavı** — Hafta 1–4 tamamı, 100 puan, konu bazında puan                                          | Sınav içinde 2 problem |
+
+**Kapı kuralı:** Kapı sınavı **≥ 80** → Hafta 6 (SQL). **< 80** → Hafta 5b: sadece %80 altı kalan konular, 1 hafta, aynı formatta ikinci kapı sınavı; bütün tarihler 1 hafta daha kayar.
+
+---
+
+## FAZ 2 — Veritabanı ve Web Temelleri (Hafta 6–7) · 9 – 22 Kas
 
 | Hafta | Konular                                                                                                                                                            | Çıktı                                                                   |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| **5** | SQL (PostgreSQL): SELECT, WHERE, JOIN, GROUP BY, subquery, index, transaction, normalizasyon, ER diyagram. JDBC                                                    | 60+ SQL sorusu (pgexercises, SQLBolt). Gider Takip'i PostgreSQL'e bağla |
-| **6** | HTTP (metodlar, status kodları, header, JSON), REST tasarımı, Postman, JUnit 5 ile unit test, SOLID, temel design patterns (Singleton, Factory, Builder, Strategy) | Proje 0'a unit testler (%70+)                                           |
+| **6** | SQL (PostgreSQL): SELECT, WHERE, JOIN, GROUP BY, subquery, index, transaction, normalizasyon, ER diyagram. JDBC                                                    | 60+ SQL sorusu (pgexercises, SQLBolt). Gider Takip'i PostgreSQL'e bağla |
+| **7** | HTTP (metodlar, status kodları, header, JSON), REST tasarımı, Postman, JUnit 5 ile unit test, SOLID, temel design patterns (Singleton, Factory, Builder, Strategy) | Proje 0'a unit testler (%70+)                                           |
 
-## FAZ 3 — Spring Boot (Hafta 7–10) · 11 Kas – 8 Ara
+## FAZ 3 — Spring Boot (Hafta 8–11) · 23 Kas – 20 Ara
 
 | Hafta  | Konular                                                                                                                                   |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **7**  | Spring IoC/DI, bean, `@Component/@Service/@Repository`, Spring Boot yapısı, `@RestController`, DTO, validation, global exception handling |
-| **8**  | Spring Data JPA / Hibernate: entity, ilişkiler (1-N, N-N), lazy/eager, N+1 problemi, pagination, Flyway migration                         |
-| **9**  | Test: JUnit 5 + Mockito, `@WebMvcTest`, `@DataJpaTest`, Testcontainers. Spring Security + JWT                                             |
-| **10** | Docker, docker-compose, GitHub Actions (CI), OpenAPI/Swagger, logging, deploy (Render/Railway vb.)                                        |
+| **8**  | Spring IoC/DI, bean, `@Component/@Service/@Repository`, Spring Boot yapısı, `@RestController`, DTO, validation, global exception handling |
+| **9**  | Spring Data JPA / Hibernate: entity, ilişkiler (1-N, N-N), lazy/eager, N+1 problemi, pagination, Flyway migration                         |
+| **10** | Test: JUnit 5 + Mockito, `@WebMvcTest`, `@DataJpaTest`, Testcontainers. Spring Security + JWT                                             |
+| **11** | Docker, docker-compose, GitHub Actions (CI), OpenAPI/Swagger, logging, deploy (Render/Railway vb.)                                        |
 
-**Proje 1 (Hafta 7–10 boyunca yazılır):** Randevu/Rezervasyon REST API
+**Proje 1 (Hafta 8–11 boyunca yazılır):** Randevu/Rezervasyon REST API
 - Kullanıcı kayıt/giriş (JWT), roller (USER/ADMIN), CRUD, pagination & filtreleme
 - PostgreSQL + Flyway, Docker Compose ile tek komutla ayağa kalkar
 - Unit + integration test, GitHub Actions CI, Swagger dokümantasyonu, canlı demo linki
 
-> 🎯 **Hafta 10 sonunda:** yeni CV hazır → **başvurular başlar** (günde 3-5 hedefli başvuru, çalışma devam ederken).
+> 🎯 **Hafta 11 sonunda:** yeni CV hazır → **başvurular başlar** (günde 3-5 hedefli başvuru, çalışma devam ederken).
 
-## FAZ 4 — Derinleşme + İkinci Proje (Hafta 11–13) · 9 Ara – 29 Ara
+## FAZ 4 — Derinleşme + İkinci Proje (Hafta 12–14) · 21 Ara – 10 Oca
 
 - Proje 2: daha "kurumsal" bir sistem (ör. E-ticaret sipariş servisi): Redis cache, event/mesaj kuyruğu temeli (RabbitMQ veya Kafka tanıtım), transaction yönetimi, idempotency
 - SOAP'a kısa bakış (Türk bankaları için), JSP/Thymeleaf'e 1 günlük bakış
 - Git ileri: branch stratejisi, PR, rebase, conflict çözme
 - Linux temelleri, temel ağ (TCP/IP, DNS, HTTPS)
 
-## FAZ 5 — Mülakat Modu (Hafta 14–16) · 30 Ara – 19 Oca
+## FAZ 5 — Mülakat Modu (Hafta 15–17) · 11 Oca – 31 Oca
 
 - Java core mülakat soruları (100+ soru bankası, Claude ile sözlü prova — TR ve EN)
 - Spring / JPA / SQL mülakat soruları
@@ -78,10 +99,10 @@
 
 | Hafta | Konu                                                                        |
 | ----- | --------------------------------------------------------------------------- |
-| 2–4   | Diziler, String, HashMap ile sayma, iki pointer — LeetCode Easy             |
-| 5–7   | Stack, Queue, Linked List, Recursion, Binary Search                         |
-| 8–10  | Tree (BFS/DFS), sıralama algoritmaları, Big-O analizi                       |
-| 11–16 | Sliding window, Heap, Graph temelleri, NeetCode 150 seçkisi, karışık tekrar |
+| 2–5   | Diziler, String, HashMap ile sayma, iki pointer — LeetCode Easy             |
+| 6–8   | Stack, Queue, Linked List, Recursion, Binary Search                         |
+| 9–11  | Tree (BFS/DFS), sıralama algoritmaları, Big-O analizi                       |
+| 12–17 | Sliding window, Heap, Graph temelleri, NeetCode 150 seçkisi, karışık tekrar |
 
 ## Kaynaklar (sadece bunlar — kaynak toplama tuzağına düşmüyoruz)
 
