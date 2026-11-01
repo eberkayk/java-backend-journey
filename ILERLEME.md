@@ -192,6 +192,13 @@
 - Ne takıldı: DERS'teki "FILE : Path" gösterimini olduğu gibi yazdım (önce tip, sonra isim); değişkeni if/else'in içinde tanımladım, switch göremedi; case'lere String için tırnak koymadım; add'de args indekslerini bir kaydırdım (Category.valueOf("Coffee")); switch içindeki return bütün metottan çıkıyor, switch'i değişkene atamak gerekti; substring'de dizinin length'ini kullandım; ısınmada Optional yazdırma (3. kez) ve valueOf → IAE yine karıştı
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 24 — 01.11.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): Hafta 4 mini sınavı (record + enum + stream + Optional + dosya I/O ile Antrenman Günlüğü); Comparator zinciri comparing(...).reversed().thenComparing(Comparator.naturalOrder()) ve map::get yerine (String w) -> map.get(w) yazma sebebi; thread temelleri (start = yeni thread, run = aynı thread, join = bekle), count++ race condition, synchronized ve AtomicInteger
+- Ne takıldı: Optional yazdırmayı 4. kez karıştırdım ([Optional]Ada yazdım, doğrusu Optional[Ada]; b.orElse("none") patlamaz, "none" verir); LocalDate'i 31.01.2026 diye yazdım (doğrusu 2026-01-31), record'un toString formatını ve ordinal'ı bilmiyordum; Consumer ile Function'ı karıştırdım; longest()'ta max'ın zaten Optional döndürdüğünü görmeyip orElseThrow ile açtım; activeDays'de tarih yerine Workout saydım; Exam3'te if koşulu ters, while 'to' gününü dışarıda bıraktı; ThreadDemo'da run() çağrısının main'de çalıştığını bilemedim
+- Commit: evet
+- Enerji/motivasyon (1-5): 2
 ---
 
 ## Haftalık Kontrol
@@ -201,4 +208,4 @@
 | 1     | 30 Eyl – 6 Eki | Tamam           | 58         | Algoritmayı sıfırdan kurmada zayıfım |
 | 2     | 7 – 13 Eki     | Tamam           | 78.5       | daha iyiye gidiyorum genel olarak    |
 | 3     | 14 – 20 Eki    | Tamam           | 64.5       | bu haftanın konuları tam oturmadı    |
-| 4     | 21 – 27 Eki    |                 |            |                                      |
+| 4     | 21 – 27 Eki    | Tamam           | 62         | bu haftanın konuları da tam oturmadı |
