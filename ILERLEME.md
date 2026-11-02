@@ -199,6 +199,13 @@
 - Ne takıldı: Optional yazdırmayı 4. kez karıştırdım ([Optional]Ada yazdım, doğrusu Optional[Ada]; b.orElse("none") patlamaz, "none" verir); LocalDate'i 31.01.2026 diye yazdım (doğrusu 2026-01-31), record'un toString formatını ve ordinal'ı bilmiyordum; Consumer ile Function'ı karıştırdım; longest()'ta max'ın zaten Optional döndürdüğünü görmeyip orElseThrow ile açtım; activeDays'de tarih yerine Workout saydım; Exam3'te if koşulu ters, while 'to' gününü dışarıda bıraktı; ThreadDemo'da run() çağrısının main'de çalıştığını bilemedim
 - Commit: evet
 - Enerji/motivasyon (1-5): 2
+
+### Gün 25 — 02.11.2026
+- Süre: 5 saat
+- Ne öğrendim (3 madde): Exception tekrarı (checked = extends Exception, throws ya da catch zorunlu; catch sırası; finally her zaman çalışır; yakalanmayan exception çağırana gider; catch'te yakalayıp kendi exception'ına çevirme); List dönüş değerleri ve add(i, x)'in araya sokup kaydırması; iki pointer: LC 905 (soldan tek, sağdan çift arayıp yer değiştirme) ve LC 88 (sondan doldurma, büyük olanı k'ya yazma)
+- Ne takıldı: Optional yazdırmayı 5. kez karıştırdım (Optional[Ada]), LocalDate'i 2026.03.05 yazdım (doğrusu 2026-03-05), record toString'i bilemedim (Point[x=1, y=2]); add(i, x)'i boşluklu kutuya yazmak sandım; List.of'a add'in UnsupportedOperationException fırlattığını kaçırdım; removeIf'in boolean döndürdüğünü ve catch'ten fırlayan exception'ın programı durdurduğunu gözden kaçırdım; Playlist'te removeIf hepsini sildi, indexOf sonuncuyu buldu, yanlış exception'ı yakaladım; LC 88 iki pointer versiyonunda pointer'ları m-1 / n-1 yerine m / n'den başlattım
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
