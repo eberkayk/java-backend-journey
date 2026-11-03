@@ -206,6 +206,13 @@
 - Ne takıldı: Optional yazdırmayı 5. kez karıştırdım (Optional[Ada]), LocalDate'i 2026.03.05 yazdım (doğrusu 2026-03-05), record toString'i bilemedim (Point[x=1, y=2]); add(i, x)'i boşluklu kutuya yazmak sandım; List.of'a add'in UnsupportedOperationException fırlattığını kaçırdım; removeIf'in boolean döndürdüğünü ve catch'ten fırlayan exception'ın programı durdurduğunu gözden kaçırdım; Playlist'te removeIf hepsini sildi, indexOf sonuncuyu buldu, yanlış exception'ı yakaladım; LC 88 iki pointer versiyonunda pointer'ları m-1 / n-1 yerine m / n'den başlattım
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 26 — 03.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): Map dönüş değerleri ve yazdırma formatı ({k=v}), HashMap/LinkedHashMap/TreeMap sıra farkı, getOrDefault ile sayma; entrySet ile gezme (getKey/getValue), "key yoksa boş liste koy, sonra ekle" gruplama kalıbı ve map'i ters çevirme (sayı → isimler); iki seti contains ile karşılaştırarak kesişim/fark, elle equals + hashCode (Seat), LC 88 iki pointer'ı notsuz yeniden yazdım
+- Ne takıldı: record toString'i yine (Item(pen, 4) yazdım, doğrusu Item[name=pen, qty=4]), Optional.map sonucunun yine Optional olduğunu kaçırdım, LocalDate'te günü 3 yazdım (03); Map'i [[k, v]] diye yazdım, TreeMap'in sırasının garanti olduğunu kaçırdım; visitsPerPerson'da yine groupingBy'dan önce map yaptım; onlyIn'i tek Visit koşuluyla çözmeye çalıştım; peopleByVisitCount'ta containsKey'e isim verdim (key sayıydı); Venue'da booked.add'i unuttum
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
