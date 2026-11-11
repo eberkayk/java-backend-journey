@@ -209,8 +209,8 @@
 
 ### Gün 26 — 03.11.2026
 - Süre: 4 saat
-- Ne öğrendim (3 madde): Map dönüş değerleri ve yazdırma formatı ({k=v}), HashMap/LinkedHashMap/TreeMap sıra farkı, getOrDefault ile sayma; entrySet ile gezme (getKey/getValue), "key yoksa boş liste koy, sonra ekle" gruplama kalıbı ve map'i ters çevirme (sayı → isimler); iki seti contains ile karşılaştırarak kesişim/fark, elle equals + hashCode (Seat), LC 88 iki pointer'ı notsuz yeniden yazdım
-- Ne takıldı: record toString'i yine (Item(pen, 4) yazdım, doğrusu Item[name=pen, qty=4]), Optional.map sonucunun yine Optional olduğunu kaçırdım, LocalDate'te günü 3 yazdım (03); Map'i [[k, v]] diye yazdım, TreeMap'in sırasının garanti olduğunu kaçırdım; visitsPerPerson'da yine groupingBy'dan önce map yaptım; onlyIn'i tek Visit koşuluyla çözmeye çalıştım; peopleByVisitCount'ta containsKey'e isim verdim (key sayıydı); Venue'da booked.add'i unuttum
+- Ne öğrendim (3 madde): Map dönüş değerleri ve yazdırma formatı ({k=v}), HashMap/LinkedHashMap/TreeMap sıra farkı, getOrDefault ile sayma; entrySet ile gezme (getKey/getValue), "key yoksa boş liste koy, sonra ekle" gruplama kalıbı ve map'i ters çevirme (sayı → isimler); iki seti contains ile karşılaştırarak kesişim/fark, elle equals + hashCode (Seat), LC 88 iki pointer'ı notsuz yeniden yazdım. 11.11'de algoritmalar: LC 219 (sayı → son görüldüğü index map'i) ve LC 290 (iki yönlü map: harf → kelime + kelime → harf)
+- Ne takıldı: record toString'i yine (Item(pen, 4) yazdım, doğrusu Item[name=pen, qty=4]), Optional.map sonucunun yine Optional olduğunu kaçırdım, LocalDate'te günü 3 yazdım (03); Map'i [[k, v]] diye yazdım, TreeMap'in sırasının garanti olduğunu kaçırdım; visitsPerPerson'da yine groupingBy'dan önce map yaptım; onlyIn'i tek Visit koşuluyla çözmeye çalıştım; peopleByVisitCount'ta containsKey'e isim verdim (key sayıydı); Venue'da booked.add'i unuttum. LC 290'da put'u kontrolden önce yaptım (kontrol hep geçti), kelime sayısı yerine s.length() kullandım, iki if'i iç içe yazdım (ikisinin aynı anda tutması gerekti)
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 ---
