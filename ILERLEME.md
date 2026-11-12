@@ -213,6 +213,13 @@
 - Ne takıldı: record toString'i yine (Item(pen, 4) yazdım, doğrusu Item[name=pen, qty=4]), Optional.map sonucunun yine Optional olduğunu kaçırdım, LocalDate'te günü 3 yazdım (03); Map'i [[k, v]] diye yazdım, TreeMap'in sırasının garanti olduğunu kaçırdım; visitsPerPerson'da yine groupingBy'dan önce map yaptım; onlyIn'i tek Visit koşuluyla çözmeye çalıştım; peopleByVisitCount'ta containsKey'e isim verdim (key sayıydı); Venue'da booked.add'i unuttum. LC 290'da put'u kontrolden önce yaptım (kontrol hep geçti), kelime sayısı yerine s.length() kullandım, iki if'i iç içe yazdım (ikisinin aynı anda tutması gerekti)
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 27 — 12.11.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): Generic class ve metot yazma (Pair<A, B>, static <A, B> Pair<B, A> swap, topN ile Comparator<T> parametresi); compareTo'da önce tarihe (due.compareTo), eşitse başlığa bakma kalıbı, reversed()'ın kendinden önceki zincirin tamamını çevirmesi, TreeSet'in compare == 0 olan elemanı eklememesi; gezerken Iterator + it.remove() ile silme (for-each içinde list.remove → CME), LC 1051 (sıralı kopya ile karşılaştırma) ve LC 1337 (Integer[] index dizisini comparator ile sıralama)
+- Ne takıldı: TreeMap'in key'leri alfabetik sıraladığını ve keySet()'in köşeli parantezle yazıldığını kaçırdım; record toString'i P9'da yine normal parantezle yazdım (doğrusu Score[name=b, pts=9]); TreeSet'in içine String yerine uzunlukları yazdım; stream'de yine sorted'dan önce map yaptım; add'de contains ile bütün record'u karşılaştırdım (sadece başlığa bakmalıydım), TreeMap'e reverseOrder vermeyi unuttum, byPriority'de .toList() eksikti, metot adını yanlış yazdım (removeOverDue); LC 1337'de diziye index yerine 1 sayısını yazdım ve aynı satırı tekrar tekrar seçtim
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol

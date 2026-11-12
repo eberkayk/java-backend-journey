@@ -3,6 +3,7 @@
 > Omurga: `roadmap.sh/java` + `roadmap.sh/spring-boot`. `roadmap.sh/backend`'den sadece junior için gerekenler alındı.
 > Tarihler hedeftir; hızlı gidersek öne çekeriz, zorlanırsak konu sağlam oturmadan ilerlemeyiz.
 > **Revizyon (1 Kasım 2026):** Hafta 1–4 sınavları 58 / 78.5 / 64.5 / 62. Hedef %80+ olmadan SQL'e geçmiyoruz → Hafta 5 **Tekrar + Kapı Sınavı** eklendi, sonraki haftalar 1 hafta kaydı (16 → 17 hafta, kapı sınavı geçilemezse 18).
+> **Revizyon (11 Kasım 2026):** 4–10 Kas ara verildi (Gün 26 algoritması 11 Kas’ta bitti). Gün 27’den itibaren her şey 1 hafta kaydı.
 
 ## Başlangıç Seviyesi (29 Eylül 2026)
 
@@ -34,34 +35,34 @@
 | **3** | Exceptions, Collections (List/Set/Map, iç yapıları), Generics, Comparable/Comparator, Iterator                                            | Kütüphane sistemini Collections + exception ile yeniden yaz                                           |
 | **4** | Lambda, Stream API, Optional, record, enum, dosya I/O, `java.time`, temel concurrency kavramı. **Maven**                                  | **Proje 0:** Konsol "Gider Takip" uygulaması (dosyaya kaydeden, stream kullanan, Maven'lı, README'li) |
 
-## TEKRAR — Hafta 5 · 2 – 8 Kas (Gün 25–31)
+## TEKRAR — Hafta 5 · 2 – 15 Kas (Gün 25–31, 4–10 Kas ara)
 
 **Neden:** Hafta 3 (Collections) ve Hafta 4 (modern Java) %50–60 seviyesinde, algoritmayı sıfırdan kurmak zayıf. Spring bunların üstüne kurulu; oturmadan geçmek ileride iki kat zaman kaybettirir.
 
 **Günlük şablon (~5-6 saat, karışık):** Isınma 15 dk (sık kaçanlar, kodlu sorular) → Konu özeti 30 dk (yeni konu yok) → Çıktı tahmin seti 20 dk → Notsuz kod görevi 1.5–2 sa → Algoritma 1 sa (1–2 LeetCode: önce örnek girdiyle elle çöz, adımları chat'e yaz, sonra kodla) → Kapanış.
 
-| Gün | Tarih | Odak                                                                                                     | Algoritma              |
-| --- | ----- | -------------------------------------------------------------------------------------------------------- | ---------------------- |
-| 25  | 2 Kas | Exceptions (checked/unchecked, custom, throw/throws) + `List` (dönüş değerleri, `remove(int)` tuzağı)    | Dizi + iki pointer     |
-| 26  | 3 Kas | `Map` / `Set`: `hashCode`/`equals`, sayma kalıpları (`getOrDefault`, `merge`, `putIfAbsent`)             | HashMap ile sayma      |
-| 27  | 4 Kas | Generics + `Comparable` / `Comparator` zincirleri + `Iterator` / CME                                     | Sıralama tabanlı       |
-| 28  | 5 Kas | Lambda + functional interface'ler + Stream (`filter/map/sorted/collect/groupingBy`), döngü ↔ stream      | String                 |
-| 29  | 6 Kas | `Optional` (yazdırma!), `record`, `enum`, `java.time`, dosya I/O, exception isimleri                     | Karışık                |
-| 30  | 7 Kas | **Notsuz mini proje** sıfırdan (Maven; collections + exception + stream + record/enum + dosya), 3-4 saat | —                      |
-| 31  | 8 Kas | **Kapı sınavı** — Hafta 1–4 tamamı, 100 puan, konu bazında puan                                          | Sınav içinde 2 problem |
+| Gün | Tarih  | Odak                                                                                                     | Algoritma              |
+| --- | ------ | -------------------------------------------------------------------------------------------------------- | ---------------------- |
+| 25  | 2 Kas  | Exceptions (checked/unchecked, custom, throw/throws) + `List` (dönüş değerleri, `remove(int)` tuzağı)    | Dizi + iki pointer     |
+| 26  | 3 Kas  | `Map` / `Set`: `hashCode`/`equals`, sayma kalıpları (`getOrDefault`, `merge`, `putIfAbsent`)             | HashMap ile sayma      |
+| 27  | 11 Kas | Generics + `Comparable` / `Comparator` zincirleri + `Iterator` / CME                                     | Sıralama tabanlı       |
+| 28  | 12 Kas | Lambda + functional interface'ler + Stream (`filter/map/sorted/collect/groupingBy`), döngü ↔ stream      | String                 |
+| 29  | 13 Kas | `Optional` (yazdırma!), `record`, `enum`, `java.time`, dosya I/O, exception isimleri                     | Karışık                |
+| 30  | 14 Kas | **Notsuz mini proje** sıfırdan (Maven; collections + exception + stream + record/enum + dosya), 3-4 saat | —                      |
+| 31  | 15 Kas | **Kapı sınavı** — Hafta 1–4 tamamı, 100 puan, konu bazında puan                                          | Sınav içinde 2 problem |
 
 **Kapı kuralı:** Kapı sınavı **≥ 80** → Hafta 6 (SQL). **< 80** → Hafta 5b: sadece %80 altı kalan konular, 1 hafta, aynı formatta ikinci kapı sınavı; bütün tarihler 1 hafta daha kayar.
 
 ---
 
-## FAZ 2 — Veritabanı ve Web Temelleri (Hafta 6–7) · 9 – 22 Kas
+## FAZ 2 — Veritabanı ve Web Temelleri (Hafta 6–7) · 16 – 29 Kas
 
 | Hafta | Konular                                                                                                                                                            | Çıktı                                                                   |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
 | **6** | SQL (PostgreSQL): SELECT, WHERE, JOIN, GROUP BY, subquery, index, transaction, normalizasyon, ER diyagram. JDBC                                                    | 60+ SQL sorusu (pgexercises, SQLBolt). Gider Takip'i PostgreSQL'e bağla |
 | **7** | HTTP (metodlar, status kodları, header, JSON), REST tasarımı, Postman, JUnit 5 ile unit test, SOLID, temel design patterns (Singleton, Factory, Builder, Strategy) | Proje 0'a unit testler (%70+)                                           |
 
-## FAZ 3 — Spring Boot (Hafta 8–11) · 23 Kas – 20 Ara
+## FAZ 3 — Spring Boot (Hafta 8–11) · 30 Kas – 27 Ara
 
 | Hafta  | Konular                                                                                                                                   |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,14 +78,14 @@
 
 > 🎯 **Hafta 11 sonunda:** yeni CV hazır → **başvurular başlar** (günde 3-5 hedefli başvuru, çalışma devam ederken).
 
-## FAZ 4 — Derinleşme + İkinci Proje (Hafta 12–14) · 21 Ara – 10 Oca
+## FAZ 4 — Derinleşme + İkinci Proje (Hafta 12–14) · 28 Ara – 17 Oca
 
 - Proje 2: daha "kurumsal" bir sistem (ör. E-ticaret sipariş servisi): Redis cache, event/mesaj kuyruğu temeli (RabbitMQ veya Kafka tanıtım), transaction yönetimi, idempotency
 - SOAP'a kısa bakış (Türk bankaları için), JSP/Thymeleaf'e 1 günlük bakış
 - Git ileri: branch stratejisi, PR, rebase, conflict çözme
 - Linux temelleri, temel ağ (TCP/IP, DNS, HTTPS)
 
-## FAZ 5 — Mülakat Modu (Hafta 15–17) · 11 Oca – 31 Oca
+## FAZ 5 — Mülakat Modu (Hafta 15–17) · 18 Oca – 7 Şub
 
 - Java core mülakat soruları (100+ soru bankası, Claude ile sözlü prova — TR ve EN)
 - Spring / JPA / SQL mülakat soruları
