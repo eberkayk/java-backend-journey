@@ -220,6 +220,13 @@
 - Ne takıldı: TreeMap'in key'leri alfabetik sıraladığını ve keySet()'in köşeli parantezle yazıldığını kaçırdım; record toString'i P9'da yine normal parantezle yazdım (doğrusu Score[name=b, pts=9]); TreeSet'in içine String yerine uzunlukları yazdım; stream'de yine sorted'dan önce map yaptım; add'de contains ile bütün record'u karşılaştırdım (sadece başlığa bakmalıydım), TreeMap'e reverseOrder vermeyi unuttum, byPriority'de .toList() eksikti, metot adını yanlış yazdım (removeOverDue); LC 1337'de diziye index yerine 1 sayısını yazdım ve aynı satırı tekrar tekrar seçtim
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 28 — 12.11.2026
+- Süre: 2 saat
+- Ne öğrendim (3 madde): Lambda döndüren metotlar yazmayı öğrendim (Filters.minTotal → o -> o.total() >= min, label() → Function); Function'ı bir eleman üzerinde çalıştırmak için apply(o) çağrılır, toString çağırırsam lambda'nın kendisi yazılır. Stream'de her adımdan sonra elimdeki tipi düşünmek: filter/sorted önce, map en sonda, distinct ve sorted da map'ten sonra isimler üzerinde; groupingBy + counting / summingInt'i TreeMap ile kullandım, mapToInt + sum ile toplam aldım ve aynı toplamı for-each ile de yazdım. String algoritmaları: LC 557 (split + StringBuilder.reverse + trim) ve LC 1859 (son karakteri parseInt ile sayıya çevirip TreeMap'e sırayla koyma)
+- Ne takıldı:  List'i yine normal parantezle yazdım (doğrusu [City[...], ...], List.of(2) → [2], values() → [[1, 3], [2]]); stream'in kaynak listeyi değiştirdiğini sandım (P4); bitiş adımı olmadan filter'ın çalışacağını sandım (P6, sadece "end" çıkar); lambda döndüren metotları ilk başta nasıl yazacağımı bilemedim; label()'da apply yerine toString çağırdım; customersWhoBought'ta distinct'i map'ten önce yaptım (Order'lar üzerinde çalıştı) ve sorted'ı unuttum; LC 557'de charAt'e atama yapmaya çalıştım (String değişmez) ve sonda fazladan boşluk kaldı
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
