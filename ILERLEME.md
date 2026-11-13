@@ -227,6 +227,13 @@
 - Ne takıldı:  List'i yine normal parantezle yazdım (doğrusu [City[...], ...], List.of(2) → [2], values() → [[1, 3], [2]]); stream'in kaynak listeyi değiştirdiğini sandım (P4); bitiş adımı olmadan filter'ın çalışacağını sandım (P6, sadece "end" çıkar); lambda döndüren metotları ilk başta nasıl yazacağımı bilemedim; label()'da apply yerine toString çağırdım; customersWhoBought'ta distinct'i map'ten önce yaptım (Order'lar üzerinde çalıştı) ve sorted'ı unuttum; LC 557'de charAt'e atama yapmaya çalıştım (String değişmez) ve sonda fazladan boşluk kaldı
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 29 — 13.11.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): Tarih aralığına iki ucu dahil etmek için !start.isAfter(day) && !end.isBefore(day) kalıbı; isBefore ve isAfter aynı günde false döner. Enum'a field + constructor ekleyip (BikeType günlük fiyat), record'u CSV'ye çevirmek ve geri okumak (split(";"), valueOf, LocalDate.parse), Files.write / readAllLines ile kaydedip yükleme ve boş satırları isBlank() ile atlama. Algoritmalar: LC 1436 (başlangıç şehirlerini toplayıp listede olmayan bitişi bulma; HashSet ile O(1) contains) ve LC 1903 (sondan başlayıp ilk tek rakama kadar kesme).
+- Ne takıldı: Bitiş adımı olmayan stream'in çalışacağını yine sandım (S2'de map satırlarını yazdım; dünkü P6 ile aynı hata); Optional.map(String::length) sonucunu Optional[3] yerine Optional[Ada] yazdım, a.get() + b.isPresent() sonucunda false'u unuttum (Adafalse); olmayan dosyayı okumanın NoSuchFileException fırlatacağını kaçırdım; boş iterator'da next()'in NoSuchElementException olduğunu bilmedim; toCsv'de type alanını unuttum, activeOn'da uç günleri dışarıda bıraktım (isBefore / isAfter), loadFrom'da boş satırları atlamadım.
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 ---
 
 ## Haftalık Kontrol
