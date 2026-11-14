@@ -234,6 +234,71 @@
 - Ne takıldı: Bitiş adımı olmayan stream'in çalışacağını yine sandım (S2'de map satırlarını yazdım; dünkü P6 ile aynı hata); Optional.map(String::length) sonucunu Optional[3] yerine Optional[Ada] yazdım, a.get() + b.isPresent() sonucunda false'u unuttum (Adafalse); olmayan dosyayı okumanın NoSuchFileException fırlatacağını kaçırdım; boş iterator'da next()'in NoSuchElementException olduğunu bilmedim; toCsv'de type alanını unuttum, activeOn'da uç günleri dışarıda bıraktım (isBefore / isAfter), loadFrom'da boş satırları atlamadım.
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
+
+### Gün 30 — 14.11.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): Notsuz Maven projesi kurdum (inventory-cli): enum'a field + metot (IN(1)/OUT(-1), signed), compact constructor ile record doğrulama, checked custom exception (InsufficientStockException) ve throws; stoğu ayrı tutmadan hareketlerden hesaplama (filter + mapToInt + sum), groupingBy + summingInt'i TreeMap ile kullanma, TreeMap'in entrySet'inde for-each dönüp en büyüğü bulma (sadece > ile güncelleyince eşitlikte alfabetik ilk kalıyor), iki ucu dahil tarih aralığı; Files.write'a satır listesi verip tek seferde üzerine yazma, Files.exists ile olmayan dosyayı boş envanter sayma
+- Ne takıldı: Bitiş adımı olmayan stream'in exception fırlattığını sandım (hiç çalışmıyor); Optional.map sonucunu yine Optional'sız yazdım (doğrusu Optional[JAVA]); split dizisinde AIOOBE ve LocalDate.parse'ta DateTimeParseException'ı bilmedim; add'de stoğu stockOf ile hesaplayacağımı göremedim ve movements.add'i unuttum; topSeller'da map'ten en büyüğü seçmeyi ve map üzerinde for-each'i hatırlamadım; saveTo'da Files.write'a tek String verdim ve APPEND kullandım (her kayıtta
+  satırlar çoğalırdı); loadFrom'u static yapmadım ve dosya var mı kontrolü koymadım; lowStock'ta
+  yine distinct'i unuttum (Gün 28 ile aynı hata)
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
 ---
 
 ## Haftalık Kontrol
