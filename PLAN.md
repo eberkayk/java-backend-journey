@@ -4,6 +4,7 @@
 > Tarihler hedeftir; hızlı gidersek öne çekeriz, zorlanırsak konu sağlam oturmadan ilerlemeyiz.
 > **Revizyon (1 Kasım 2026):** Hafta 1–4 sınavları 58 / 78.5 / 64.5 / 62. Hedef %80+ olmadan SQL'e geçmiyoruz → Hafta 5 **Tekrar + Kapı Sınavı** eklendi, sonraki haftalar 1 hafta kaydı (16 → 17 hafta, kapı sınavı geçilemezse 18).
 > **Revizyon (11 Kasım 2026):** 4–10 Kas ara verildi (Gün 26 algoritması 11 Kas’ta bitti). Gün 27’den itibaren her şey 1 hafta kaydı.
+> **Revizyon (15 Kasım 2026):** Kapı sınavı 72.5/100 (Temeller 72, Exceptions 55, Kod görevi 46; diğer konular ≥ 82). Hafta 5b yapılmadı (öğrencinin kararı) → doğrudan Hafta 6 SQL. Zayıf noktalar (map'te olmayan key / null, spec'teki sıralı-boş-değiştirilemez şartları, checked exception, effectively final, pass-by-value) Hafta 6 ısınmalarında tekrar edilecek.
 
 ## Başlangıç Seviyesi (29 Eylül 2026)
 

@@ -244,12 +244,12 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 31 — 15.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde):  Kapı sınavı 72.5/100 (algoritma 20/20, B6 stream/Optional tam); map'te olmayan key'e get → null, üstünde metot çağırınca NPE → yazacaksam putIfAbsent, sadece okuyacaksam getOrDefault; içerideki listeyi döndürmek yerine stream().sorted().toList() ile sıralı ve değiştirilemez kopya döndürmek, groupingBy'a TreeMap::new verip enum sırası almak, HashMap'te eşitlik için önce key'leri sıralayıp öyle dönmek
+- Ne takıldı: School'da map'lere başlangıç değeri koymadım (her ilk kayıt NPE); spec'teki "alfabetik / boş liste / değiştirilemez" şartlarını atladım; checked exception'ı RuntimeException'dan türettim; Optional.of(null) NPE (doğrusu ofNullable); lambda'da dış değişkene atamanın sebebini yine List.of sandım (effectively final); metoda gelen dizi referansını yeniden atamanın dışarıyı etkilemediğini kaçırdım; println(metot()) dönüş değerini yazmayı unuttum
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
@@ -309,3 +309,4 @@
 | 2     | 7 – 13 Eki     | Tamam           | 78.5       | daha iyiye gidiyorum genel olarak    |
 | 3     | 14 – 20 Eki    | Tamam           | 64.5       | bu haftanın konuları tam oturmadı    |
 | 4     | 21 – 27 Eki    | Tamam           | 62         | bu haftanın konuları da tam oturmadı |
+| 5     | 2 – 15 Kas     | Tamam           | 72.5       | kapı sınavı, 5b yerine SQL'e geçiş   |
