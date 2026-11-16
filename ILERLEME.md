@@ -251,12 +251,12 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 32 — 16.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): PostgreSQL 18 kurulumu (psql, PATH, pgpass, port değiştirme) ve ilk tabloyu yazmak: IDENTITY primary key, NOT NULL, DEFAULT, NUMERIC para tipi; INSERT'te yazılmayan kolona DEFAULT ya da NULL gelmesi; WHERE ile IN / BETWEEN (iki uç dahil) / ILIKE, NULL'un üç değerli mantığı (= NULL asla true değil, <> NULL satırları da eler → OR IS NULL), COALESCE ile NULL yerine varsayılan değer; ORDER BY birden çok kolon, LIMIT + OFFSET ile sayfalama, DISTINCT; çalışma sırası FROM → WHERE → SELECT → ORDER BY (alias WHERE'de yok, ORDER BY'da var)
+- Ne takıldı: Metinlere çift tırnak yazdım (çift tırnak kolon adı demek) ve tarihleri tırnaksız yazdım (2026-11-01 çıkarma işlemi olarak okunuyor); COALESCE'i ve OFFSET ile sayfalamayı kendim kuramadım; Q13'te ucuzdan pahalıya yerine DESC kullandım; LeetCode 595'te "or" ve "at least" yerine AND ve > yazdım; ısınmada lambda içinde dış değişkeni değiştirmenin hatasını yine açıklayamadım (effectively final), checked exception'ın throw ile fırlatılamayacağını sandım
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
