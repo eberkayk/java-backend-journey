@@ -5,6 +5,7 @@
 > **Revizyon (1 Kasım 2026):** Hafta 1–4 sınavları 58 / 78.5 / 64.5 / 62. Hedef %80+ olmadan SQL'e geçmiyoruz → Hafta 5 **Tekrar + Kapı Sınavı** eklendi, sonraki haftalar 1 hafta kaydı (16 → 17 hafta, kapı sınavı geçilemezse 18).
 > **Revizyon (11 Kasım 2026):** 4–10 Kas ara verildi (Gün 26 algoritması 11 Kas’ta bitti). Gün 27’den itibaren her şey 1 hafta kaydı.
 > **Revizyon (15 Kasım 2026):** Kapı sınavı 72.5/100 (Temeller 72, Exceptions 55, Kod görevi 46; diğer konular ≥ 82). Hafta 5b yapılmadı (öğrencinin kararı) → doğrudan Hafta 6 SQL. Zayıf noktalar (map'te olmayan key / null, spec'teki sıralı-boş-değiştirilemez şartları, checked exception, effectively final, pass-by-value) Hafta 6 ısınmalarında tekrar edilecek.
+> **Revizyon (15 Kasım 2026, 2):** Haftada 1 gün tam izin (burnout önlemi). Varsayılan Pazar; o gün başka bir işe denk gelirse izin günü yer değiştirir. Hafta içeriği 6 güne sığar, haftalık hedef tarihleri değişmez.
 
 ## Başlangıç Seviyesi (29 Eylül 2026)
 
@@ -23,7 +24,7 @@
 | Kapanış | 20 dk    | `ILERLEME.md` doldur, commit + push                                        |
 
 50 dk çalış / 10 dk mola. Telefon başka odada.
-**Pazar:** 2-3 saat — haftalık tekrar, haftalık mini sınav (Claude hazırlar), gelecek haftaya bakış.
+**Haftada 6 gün çalışma + 1 gün tam izin** (varsayılan Pazar; gerekirse başka bir günle yer değiştirir). Haftanın **son çalışma günü**: 2-3 saat — haftalık tekrar, haftalık mini sınav (Claude hazırlar), gelecek haftaya bakış.
 
 ---
 
