@@ -258,12 +258,14 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 33 — 17.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): 1. COUNT(*) bütün satırları sayar, COUNT(kolon) ve AVG NULL'ları atlar (puanlar 5 ve NULL ise ortalama 5.0 çıkar)
+    2. GROUP BY ile gruplara göre özet çıkarmayı ve HAVING ile grupları filtrelemeyi öğrendim; sıra: WHERE → GROUP BY → HAVING → SELECT → ORDER BY
+    3. UPDATE ... SET a = ..., b = ... WHERE ... ve DELETE; WHERE'siz yazılırsa bütün tabloyu etkiler
+- Ne takıldı: Q10'da SUM'ı WHERE'e yazdım, HAVING olmalıydı. Effectively final kuralını anladım ama düzeltmeyi (değeri ikinci bir değişkene kopyalamak) bilemedim. LC 1890'da TIMESTAMP kolonunda > '2019-12-31' 31 Aralık'ın saatli kayıtlarını da aldı, doğrusu >= '2020-01-01'
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
