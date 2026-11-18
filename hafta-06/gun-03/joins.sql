@@ -22,7 +22,8 @@ ORDER BY COUNT(b.id) DESC , a.name;
 SELECT a.name AS author
 FROM authors a
 LEFT JOIN books b ON b.author_id = a.id
-WHERE b.author_id IS NULL;
+WHERE b.author_id IS NULL
+ORDER BY a.name;
 
 -- J5
 SELECT m.full_name AS member, b.title AS title, loaned_on
