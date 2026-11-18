@@ -267,12 +267,14 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 34 — 18.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): 1. Kısıtlar: PRIMARY KEY, NOT NULL, UNIQUE, CHECK, DEFAULT ve FOREIGN KEY (REFERENCES); FK olmayan id'yi yazdırmaz, başka satırın gösterdiği satırı sildirmez. CHECK, NULL'u geçirir
+  2. JOIN eşi olan satırları, LEFT JOIN soldaki tüm satırları getirir; "hiç olmayanlar" için LEFT JOIN + IS NULL, "sıfırlar dahil sayı" için COUNT(sağ.id), sağ tablonun koşulu ON'a yazılır
+  3. ER: 1-N ilişkide FK "çok" tarafına konur, N-N ilişki için ara tablo gerekir (loans, order_items)
+- Ne takıldı: schema.sql'de CREATE TABLE'ların sonuna ; koymadım, ilk denemede tabloları ters sırayla oluşturdum (önce gösterilen tablo oluşturulmalı). K7'de kitabı olmayan yazarın da silinemeyeceğini sandım. J11'de her satırın kendi değerini SUM ile toplamaya çalıştım. İkinci sıralamayı A→Z yerine DESC yazdım. Her yerde LEFT JOIN kullandım, düz JOIN yeterdi
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
