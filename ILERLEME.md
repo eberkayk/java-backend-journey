@@ -276,12 +276,14 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 35 — 19.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde):  1. Subquery: scalar subquery (>, = ile), IN ile liste, NOT EXISTS ile "hiç olmayan"; NOT IN listesinde NULL varsa hiç satır gelmez. Correlated subquery dıştaki satırı kullanır, her satır için tekrar çalışır (kendi yazarının ortalaması/en yenisi). WITH ile ara sonuca isim verilir
+  2. Normalizasyon: bir bilgi tek yerde tutulur, tekrar güncelleme/ekleme/silme anomalisine yol açar; başka bir şeye ait kolon kendi tablosuna taşınıp id ile bağlanır (1NF/2NF/3NF). Index: Seq Scan → Index Scan, her kolon için ayrı index gerekir, PK/UNIQUE otomatik açılır, FK açılmaz
+  3. Transaction: BEGIN ... COMMIT/ROLLBACK, içeride bir hata olursa hepsi geri alınır; BEGIN yoksa her komut ayrı çalışır ve veri tutarsız kalabilir. ACID
+- Ne takıldı: INNER JOIN'in NULL departmanlı satırı da getirdiğini sandım. HashMap'te olmayan key'i int'e atamanın NPE verdiğini bilmiyordum. Q5'te id'yi title ile karşılaştırdım, Q7'de CTE içine ; koydum, Q8'de correlated koşulu id üzerinden kurdum (author_id olmalıydı), Q10'da books köprüsünü kuramadım. BEGIN olmadan INSERT'in de duracağını sandım. Normalizasyonda öğrenci ve not tablolarını ilk seferde unuttum. 176'da boş sonuç yerine NULL için MAX gerektiğini, 570'te GROUP BY'ın subquery içine gitmesi gerektiğini yardımla buldum
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
