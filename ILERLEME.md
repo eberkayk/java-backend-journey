@@ -285,12 +285,14 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 36 — 20.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): 1. JDBC: driver Maven ile eklenir (fat jar için shade), DriverManager.getConnection ile bağlantı try-with-resources içinde açılır, şifre koda değil ortam değişkenine (System.getenv) yazılır
+  2. PreparedStatement: değerler ? ile ayrı gönderilir, + ile string birleştirmek SQL injection'a açar (x' OR '1'='1 bütün satırları getirir). SELECT → executeQuery + while (rs.next()), INSERT/UPDATE → executeUpdate (int döner). DATE için setObject / getObject(c, LocalDate.class), enum için name() / valueOf
+  3. Java'dan transaction: setAutoCommit(false) → işler → commit, catch'te rollback + throw e. Autocommit açıkken patlayan işlemden önceki satırlar kalır. Repository pattern: SQL tek sınıfta, CLI sadece save/findAll çağırır. Çok kolonlu UNIQUE ile çift kayıt engellenir
+- Ne takıldı: DATE ve NUMERIC kolonlarına setString ile yazdım. getObject sonucunu (LocalDate) ve (Category) ile cast ettim; cast'in tip çevirmediğini, getObject'e tip vermek ve valueOf kullanmak gerektiğini öğrendim. findByMonth'ta ORDER BY'ı, saveAll'da return'ü unuttum. URL'yi jdbc:: yazdım, list sonucu yazdırmıyordu, kodu değiştirip yeniden derlemeden eski jar'ı çalıştırdım. NOT IN + NULL düzeltmesini hâlâ hatırlamadım. 1661'de self join'in ON kısmını kuramadım
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
