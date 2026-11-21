@@ -294,12 +294,14 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 37 — 21.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): 1. LEFT JOIN'de sağ tabloya koşul ON'a yazılır (ON ... AND o.status = 'PAID'); WHERE'e yazılırsa sıfırlı satırlar düşer ve sorgu INNER JOIN gibi davranır. JOIN sadece kendine birleştirme değil, iki tabloyu eşleşen satırlarla birleştirir; self join bunun özel hali
+  2. "Hiç satılmamış da 0 ile görünsün": önce CTE'de sadece istenen satışları topla, sonra ana tabloyu bu CTE'ye LEFT JOIN'le ve COALESCE(x, 0) kullan. DESC sıralamada NULL en üste çıkar, ORDER BY'da COALESCE'li takma adı kullanmak gerekir. Ortalama ile karşılaştırma WHERE'de AVG ile olmaz, (SELECT AVG(total) FROM cte) ile yapılır
+  3. JDBC: DELETE/UPDATE için executeUpdate kullanılır ve etkilenen satır sayısını döner; enum setString(e.name()) ile gönderilir. PostgreSQL'de INTEGER / INTEGER tam sayı bölmesidir, ::numeric gerekir; payda 0 olabilecekse NULLIF(payda, 0)
+- Ne takıldı: Hafta 6 sınavından 60 aldım. "Satış = PAID" şartını Q5, Q7, Q8, Q9 ve Q10'da uygulamadım. LEFT JOIN + WHERE'in hata verdiğini sandım. COUNT(*)'ın LEFT JOIN'deki boş satırı da saydığını (Can = 1) ve boş tabloda SUM'ın NULL döndüğünü kaçırdım. Transaction'da hatadan sonraki komutların reddedildiğini, COMMIT'in ROLLBACK'e döndüğünü ve BEGIN dışındaki UPDATE'in kalıcı olduğunu kaçırdım. catch'te throw e olmayınca metodun hata fırlatmadan yanlış sayı döndüğünü bilmiyordum. D'de enum'u setObject ile gönderdim, kolon adını date yazdım (spent_on olmalıydı), DELETE için executeQuery kullandım, replaceMonth'ta DELETE'i hiç çalıştırmadım. 1251'de tam sayı bölmesine ve gizli testteki units = 0 durumuna takıldım. NOT IN + NULL sorusunu bu sefer doğru yaptım
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
@@ -318,3 +320,4 @@
 | 3     | 14 – 20 Eki    | Tamam           | 64.5       | bu haftanın konuları tam oturmadı    |
 | 4     | 21 – 27 Eki    | Tamam           | 62         | bu haftanın konuları da tam oturmadı |
 | 5     | 2 – 15 Kas     | Tamam           | 72.5       | kapı sınavı, 5b yerine SQL'e geçiş   |
+| 6     | 16 – 22 Kas    | Tamam           | 60         | SQL'de okuma ve filtreler, JDBC detay|
