@@ -303,6 +303,99 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
+### Gün 38 — 23.11.2026
+- Süre: 4 saat
+- Ne öğrendim (3 madde): 1. HTTP: istemci istek gönderir (metod + adres + header + body), sunucu cevap verir (durum kodu + header + body). GET oku, POST ekle, DELETE sil; 200 tamam, 201 eklendi, 404 yok, 401 kimlik yok, 403 izin yok. DELETE idempotent, POST değil. Content-Type yanlışsa sunucu veriyi bozuk okur
+  2. Java'dan istek: HttpRequest ile hazırla, http.send ile gönder, statusCode'a bakıp karar ver (send 404'te exception atmaz). Jackson ile JSON → nesne (readValue, liste için TypeReference) ve nesne → JSON (writeValueAsString)
+  3. Stack (ArrayDeque: push/pop/peek): en son giren ilk çıkar, parantez kontrolü buna dayanır. CROSS JOIN ile bütün kombinasyonlar, sonra LEFT JOIN + COUNT(kolon) ile 0'lar da görünür
+- Ne takıldı: Dersin ilk anlatımı soyut geldi, adım adım konuşarak ilerleyince oturdu. create metodunu ilk yazışta anlamadan yazdım, satır satır gerçek değerlerle yürütünce anladım. LC 20'de kapatan parantezi kendisiyle karşılaştırdım, eşiyle karşılaştırmam gerekiyordu. Isınmada catch'te yutulan hatanın 0 döndürdüğünü ve COUNT(*)'ın grup başına saydığını yine kaçırdım
+- Commit: evet
+- Enerji/motivasyon (1-5): 4
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
+### Gün X — tarih
+- Süre: _ saat
+- Ne öğrendim (3 madde):
+- Ne takıldı:
+- Commit: evet/hayır
+- Enerji/motivasyon (1-5):
+
 ### Gün X — tarih
 - Süre: _ saat
 - Ne öğrendim (3 madde):
