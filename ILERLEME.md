@@ -312,12 +312,14 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 4
 
-### Gün X — tarih
+### Gün 39 — 24.11.2026
 - Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+- Ne öğrendim (3 madde): 1. REST: URL kaynağın adresi (çoğul isim, fiil yok), metod ne yaptığımı, status nasıl gittiğini söyler. PUT tamamını, PATCH sadece gönderilen alanları değiştirir. 400 istemci hatası, 404 kayıt yok, 405 metod yok, 500 sunucu hatası; POST → 201 + Location, DELETE → 204, boş filtre sonucu 200 [].
+    2. JDK HttpServer ile sunucu yazdım: port = bilgisayardaki programın kapı numarası, router isteği metod + yola göre yönlendirir, bir isteğe tek cevap gider (hata gönderince return). Repository veriyi tutar, handler HTTP ile uğraşır. Hatayı yutup sahte değer döndürmek yerine fırlatmak gerekir.
+    3. ArrayDeque'de push/peek/pop baş uçta, add son uçta çalışır; boş stack'te peek null döner. SQL'de payda için sabit sayı yerine (SELECT COUNT(*) FROM ...) alt sorgusu.
+- Ne takıldı: Port kavramını ilk anlatımda anlamadım. findByUser'da map anahtarını (todo id) userId ile karşılaştırdım. parsePositiveInt'te harfleri contains ile yakalamaya çalıştım, try/catch gerekiyordu. Location'a yeni todo'nun id'si yerine userId yazdım. LC 1047'de add ile push'u karıştırdım. Boş filtre sonucuna 400 dedim, 200 [] olmalı.
+- Commit: evet
+- Enerji/motivasyon (1-5): 2
 
 ### Gün X — tarih
 - Süre: _ saat
