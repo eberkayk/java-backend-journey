@@ -313,7 +313,7 @@
 - Enerji/motivasyon (1-5): 4
 
 ### Gün 39 — 24.11.2026
-- Süre: _ saat
+- Süre: 4 saat
 - Ne öğrendim (3 madde): 1. REST: URL kaynağın adresi (çoğul isim, fiil yok), metod ne yaptığımı, status nasıl gittiğini söyler. PUT tamamını, PATCH sadece gönderilen alanları değiştirir. 400 istemci hatası, 404 kayıt yok, 405 metod yok, 500 sunucu hatası; POST → 201 + Location, DELETE → 204, boş filtre sonucu 200 [].
     2. JDK HttpServer ile sunucu yazdım: port = bilgisayardaki programın kapı numarası, router isteği metod + yola göre yönlendirir, bir isteğe tek cevap gider (hata gönderince return). Repository veriyi tutar, handler HTTP ile uğraşır. Hatayı yutup sahte değer döndürmek yerine fırlatmak gerekir.
     3. ArrayDeque'de push/peek/pop baş uçta, add son uçta çalışır; boş stack'te peek null döner. SQL'de payda için sabit sayı yerine (SELECT COUNT(*) FROM ...) alt sorgusu.
@@ -321,12 +321,15 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 2
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 40 — 25.11.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): - JUnit 5: src/test/java, @Test, hazırla → çalıştır → kontrol et, assertEquals(BEKLENEN, GERÇEK), assertTrue/False/Throws, @BeforeEach ile her test temiz başlar
+- Kodu kasten bozup testin kırmızıya döndüğünü görmek; Map.put aynı anahtarda eski değeri ezer
+- Hatayı sebebiyle iletmek: throw new IllegalStateException("...", e) — "+ e" değil ", e"
+- Ne takıldı: LC 682: komutu operations[i] yerine stack.peek()'ten okudum; D ve + için pop yerine peek gerekiyordu; pop'larken size() küçüldüğü için döngü erken bitti
+- SQL: PostgreSQL'de tam sayı bölmesi (2/3*100 = 0) — ::numeric / 100.0; COUNT içine alt sorgu yazılmıyor, grup içinde koşullu sayma için SUM(CASE WHEN ...)
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
