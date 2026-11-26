@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TodoRepositoryTest {
+public class InMemoryTodoRepositoryTest {
     private TodoRepository repo;
     @BeforeEach
     void setUp() {
-        repo = new TodoRepository();
+        repo = new InMemoryTodoRepository();
     }
 
     @Test

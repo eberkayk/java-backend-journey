@@ -11,7 +11,7 @@ public class TodoServerApp {
     private static final int PORT = 8080;
 
     public static void main(String[] args) throws IOException {
-        TodoRepository repo = new TodoRepository();
+        TodoRepository repo = new InMemoryTodoRepository();
         repo.create("HTTP ogren", 1);
         repo.create("REST tasarla", 1);
         repo.create("Spring'e gec", 2);

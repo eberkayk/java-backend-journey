@@ -331,12 +331,15 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 41 — 26.11.2026
+- Süre: 2 saat
+- Ne öğrendim (3 madde): - SOLID: S = bir sınıfın değişmek için tek sebebi olmalı; D = somut sınıfa değil interface'e bağlan, nesneyi constructor ile dışarıdan ver (dependency injection, Spring'in kalbi); O/L/I birer cümle
+- todo-server'ı interface'e çevirdim: TodoRepository (interface) + InMemoryTodoRepository implements, @Override; handler artık sadece interface'i biliyor, DB'ye geçince sadece main'deki new değişir
+- 4 pattern: Strategy (Comparator), Builder (HttpRequest.newBuilder), Factory (List.of, Optional.of), Singleton (main'deki tek repo)
+- Ne takıldı:  Interface tipindeki değişkenin arkasında InMemory nesnesinin nasıl durduğunu anlamadım → tip = etiket (ne çağırabilirim), nesne = gerçek kod (ne çalışır)
+- LC 844: boş yığında pop (önce isEmpty kontrolü), t döngüsünde s.charAt kopyala-yapıştır hatası, if yerine while yazınca # her şeyi sildi
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
