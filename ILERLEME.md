@@ -341,12 +341,15 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
-- Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+### Gün 42 — 27.11.2026
+- Süre: 3 saat
+- Ne öğrendim (3 madde): Ne öğrendim (3 madde):
+  1. Postman: method/URL/Params/Body(raw JSON) ile istek, status+header okuma (201 + Location, 400, 204 → 404), collection + {{baseUrl}} değişkeni
+  2. Coverage (JaCoCo): testin kodun ne kadarını çalıştırdığını gösterir, %100 ≠ bug yok; double için assertEquals(beklenen, gerçek, delta); @TempDir ile geçici dosya testi
+  3. Queue (FIFO: offer/peek/poll) ile kayan pencere (LC 933); SQL'de TO_CHAR(tarih, 'YYYY-MM') + iki farklı SUM(CASE WHEN)
+- Ne takıldı: rethrow'da sebebi yine e.getMessage() ile ekledim, doğrusu new XxxException("mesaj", e); boş deque'de peek'in exception attığını sandım (null döner); assertEquals'ta beklenen/gerçek sırası ters; dosya testinde sadece size karşılaştırdım (listeyi karşılaştırmak lazım); LC 933'ün ne istediğini ilk okumada anlamadım
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
