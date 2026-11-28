@@ -351,12 +351,15 @@
 - Commit: evet
 - Enerji/motivasyon (1-5): 3
 
-### Gün X — tarih
-- Süre: _ saat
+### Gün 43 — 28.11.2026
+- Süre: 3 saat
 - Ne öğrendim (3 madde):
-- Ne takıldı:
-- Commit: evet/hayır
-- Enerji/motivasyon (1-5):
+  1. Hafta 7 sınavı 85/100 (A 23, B 17.75, C 44): kapalı kitapta sıfırdan Note uygulaması (record, interface, InMemory repo, service + DI, kendi exception sınıfım, 2 JUnit testi) yazdım; cause'u ilk kez doğru verdim (new IAE("...", e))
+  2. Optional.of(null) → NPE patlar, Optional.ofNullable(null) → boş Optional; field'a new yazmazsam null kalır; e.getCause() sarılan eski exception'ı verir
+  3. LC 232: iki stack ile kuyruk (in'e push, out boşsa in→out aktar, pop/peek out'tan); SQL 1327: JOIN + ay filtresi + HAVING SUM
+- Ne takıldı: Map field'ına new yazmayı unuttum (iki test NPE ile kırmızı); findById'de Optional.of kullandım; B'de: silinen id tekrar kullanılmaz (5), PUT → 405, double x = 7/2 → 3.0 yazılır, boş deque'de peek null döner, pop NoSuchElementException atar; LC 232'de pop tek eleman yerine hepsini siliyordu
+- Commit: evet
+- Enerji/motivasyon (1-5): 3
 
 ### Gün X — tarih
 - Süre: _ saat
@@ -425,3 +428,4 @@
 | 4     | 21 – 27 Eki    | Tamam           | 62         | bu haftanın konuları da tam oturmadı |
 | 5     | 2 – 15 Kas     | Tamam           | 72.5       | kapı sınavı, 5b yerine SQL'e geçiş   |
 | 6     | 16 – 22 Kas    | Tamam           | 60         | SQL'de okuma ve filtreler, JDBC detay|
+| 7     | 23 – 28 Kas    | Tamam           | 85         | en iyi sınav, sıfırdan kod yazabildim|
